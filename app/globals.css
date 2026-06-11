@@ -27,14 +27,24 @@ body {
   overflow-x: hidden;
 }
 
-@keyframes heroScale {
-  from { transform: scale(1.05); }
-  to   { transform: scale(1.12); }
+/* Hero: pan lateral esquerda → direita (imagens par) */
+@keyframes heroPanLeft {
+  from { transform: scale(1.04) translateX(-1.5%); }
+  to   { transform: scale(1.01) translateX(0%); }
+}
+
+/* Hero: pan lateral direita → esquerda (imagens ímpar) */
+@keyframes heroPanRight {
+  from { transform: scale(1.04) translateX(1.5%); }
+  to   { transform: scale(1.01) translateX(0%); }
 }
 
 @media (min-width: 768px) {
-  .hero-animate {
-    animation: heroScale 8s ease-in-out infinite alternate;
+  .hero-pan-left {
+    animation: heroPanLeft 5.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  }
+  .hero-pan-right {
+    animation: heroPanRight 5.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
   }
 }
 

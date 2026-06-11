@@ -1,4 +1,13 @@
+"use client";
+
+import { useState, useEffect } from "react";
 import { siteConfig } from "../../config/site";
+
+const heroImages = [
+  "/hero0.png",
+  "/hero1.png",
+  "/hero2.png",
+];
 
 function WhatsAppIcon() {
   return (
@@ -10,15 +19,39 @@ function WhatsAppIcon() {
 }
 
 export default function HeroSection() {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  // Chave única por slide para forçar restart do keyframe CSS a cada troca
+  const [slideKey, setSlideKey] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentImageIndex((prev) => (prev + 1) % heroImages.length);
+      setSlideKey((prev) => prev + 1);
+    }, 4000);
+    return () => clearInterval(timer);
+  }, []);
+
   return (
     <section className="relative w-full min-h-screen flex items-center justify-start overflow-hidden">
-      {/* Background Image */}
+      {/* Background Image Carousel */}
       <div className="absolute inset-0 z-0 bg-wine-dark overflow-hidden">
-        <img
-          src="/hero-bakery.png"
-          alt="Mesa farta de padaria da Big Pão"
-          className="absolute inset-0 w-full h-full object-cover object-center scale-105 z-0 hero-animate"
-        />
+        {heroImages.map((src, index) => {
+          const isActive = index === currentImageIndex;
+          // Alterna a direção do pan por índice: par → esquerda, ímpar → direita
+          const panClass = index % 2 === 0 ? "hero-pan-left" : "hero-pan-right";
+          return (
+            <img
+              key={`${src}-${isActive ? slideKey : index}`}
+              src={src}
+              alt="Mesa farta de padaria da Big Pão"
+              className={`absolute inset-0 w-full h-full object-cover object-top transition-opacity ease-in-out z-0 ${
+                isActive
+                  ? `opacity-100 duration-[1500ms] ${panClass}`
+                  : "opacity-0 duration-[1500ms] pointer-events-none"
+              }`}
+            />
+          );
+        })}
         {/* Overlay — uniforme bg-wine-dark/70 no mobile (zero riscos de Tailwind), horizontal no desktop */}
         <div className="absolute inset-0 bg-wine-dark/70 md:bg-transparent md:bg-gradient-to-r md:from-wine-dark/98 md:via-wine-dark/75 md:to-black/10 z-10" />
       </div>
