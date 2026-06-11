@@ -45,6 +45,9 @@ export default function OrdersSection() {
             alt="Bolos e cestas sob encomenda da Big Pão"
             className="absolute inset-0 w-full h-full object-cover"
           />
+          {/* Efeito de fusão suave (blend) com o fundo vinho da seção */}
+          <div className="absolute inset-x-0 top-0 h-20 bg-gradient-to-t from-transparent to-wine-dark md:hidden z-10 pointer-events-none" />
+          <div className="absolute inset-y-0 left-0 w-40 bg-gradient-to-l from-transparent to-wine-dark hidden md:block z-10 pointer-events-none" />
           {/* Placeholder watermark when image is missing */}
           <span className="absolute inset-0 flex items-center justify-center text-white/10 font-serif text-5xl font-bold italic select-none pointer-events-none">
             Bolos &amp; Cestas

@@ -39,9 +39,7 @@ export default function Header() {
       <div className="max-w-[1400px] mx-auto px-4 md:px-12 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2 relative z-50">
-          <div className="bg-white p-0.5 rounded-full overflow-hidden w-9 h-9 flex items-center justify-center shrink-0">
-            <img src="/logo original bigpao.jpg" alt={siteConfig.name} className="w-full h-full object-cover" />
-          </div>
+          <img src="/logo original bigpao sem fundo v2.png" alt={siteConfig.name} className="w-9 h-9 object-contain shrink-0" />
           <span className="text-white font-bold text-base tracking-wide hidden sm:block">Big Pão</span>
         </a>
 

@@ -14,6 +14,9 @@ export default function ExperienceBlock() {
             alt="Ambiente acolhedor da padaria Big Pão"
             className="absolute inset-0 w-full h-full object-cover"
           />
+          {/* Efeito de fusão suave (blend) com o fundo creme da seção */}
+          <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-b from-transparent to-cream md:hidden z-10 pointer-events-none" />
+          <div className="absolute inset-y-0 right-0 w-40 bg-gradient-to-r from-transparent to-cream hidden md:block z-10 pointer-events-none" />
           <span className="absolute inset-0 flex items-center justify-center text-white/10 font-serif text-5xl font-bold italic select-none pointer-events-none z-0">
             Ambiente Acolhedor
           </span>

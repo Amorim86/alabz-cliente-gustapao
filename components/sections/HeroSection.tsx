@@ -14,8 +14,8 @@ export default function HeroSection() {
     <section className="relative w-full min-h-screen flex items-center justify-start overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0 bg-wine-dark overflow-hidden">
-        {/* Gradient overlay — vinho dramático no lado esquerdo, transparente no direito */}
-        <div className="absolute inset-0 bg-gradient-to-r from-wine-dark/98 via-wine-dark/75 to-black/10 z-10" />
+        {/* Gradient overlay — vertical no mobile (evita risco e melhora contraste), horizontal no desktop */}
+        <div className="absolute inset-0 bg-gradient-to-b from-wine-dark/95 via-wine-dark/65 to-wine-dark/95 md:bg-gradient-to-r md:from-wine-dark/98 md:via-wine-dark/75 md:to-black/10 z-10" />
         <img
           src="/hero-bakery.png"
           alt="Mesa farta de padaria da Big Pão"
