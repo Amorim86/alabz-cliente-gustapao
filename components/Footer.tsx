@@ -1,4 +1,40 @@
-import { HeartPulse, Mail, Phone, MapPin } from "lucide-react";
+import { HeartPulse, Mail, Phone, MapPin, Clock } from "lucide-react";
+
+const FacebookIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...props}
+  >
+    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+  </svg>
+);
+
+const InstagramIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...props}
+  >
+    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+  </svg>
+);
 import { siteConfig } from "../config/site";
 
 export default function Footer() {
@@ -9,39 +45,39 @@ export default function Footer() {
   const loopDuration = 12.0;
 
   return (
-    <footer className="bg-brand-dark text-white pt-16 pb-6 border-t border-brand-primary/20">
-      <div className="max-w-7xl mx-auto px-6 md:px-8">
+    <footer className="bg-wine-dark text-white pt-16 pb-6 border-t border-wine">
+      <div className="max-w-[1400px] mx-auto px-6 md:px-12">
         
         {/* Upper Grid */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 pb-8">
           
           {/* Brand Info */}
           <div className="md:col-span-4">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="p-2 bg-brand-accent/10 rounded-xl text-brand-accent">
-                <HeartPulse className="w-6 h-6" />
+            <div className="flex items-center gap-4 mb-4">
+              <div className="bg-white p-2 rounded-full overflow-hidden w-16 h-16 flex items-center justify-center shrink-0">
+                 <img src="/logo original bigpao.jpg" alt={siteConfig.name} className="w-full h-full object-cover" />
               </div>
               <div className="flex flex-col">
-                <span className="font-bold text-lg tracking-tight leading-tight">
+                <span className="font-serif text-xl tracking-tight leading-tight">
                   {siteConfig.name}
                 </span>
-                <span className="text-[10px] text-brand-accent font-semibold tracking-widest uppercase">
-                  {siteConfig.subtitle}
+                <span className="text-[10px] text-wheat font-semibold tracking-widest uppercase">
+                  Unidade {siteConfig.unit}
                 </span>
               </div>
             </div>
             
-            <p className="text-zinc-400 text-xs sm:text-sm leading-relaxed max-w-sm">
-              {siteConfig.description}
+            <p className="text-white/80 text-xs sm:text-sm leading-relaxed max-w-sm mt-4">
+              Tradição em São José dos Pinhais desde 1984.
             </p>
           </div>
 
           {/* Quick Links */}
           <div className="md:col-span-2">
-            <h4 className="font-bold text-sm uppercase tracking-wider text-brand-accent mb-4">
+            <h4 className="font-bold text-sm uppercase tracking-wider text-wheat mb-4">
               Navegação
             </h4>
-            <ul className="space-y-2.5 text-xs sm:text-sm text-zinc-400">
+            <ul className="space-y-2.5 text-xs sm:text-sm text-white/80">
               {siteConfig.navigation.map((item) => (
                 <li key={item.label}>
                   <a href={item.href} className="hover:text-white transition-colors">
@@ -52,37 +88,38 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact Details */}
+          {/* Contact Details & Hours */}
           <div className="md:col-span-3">
-            <h4 className="font-bold text-sm uppercase tracking-wider text-brand-accent mb-4">
-              Contatos Clínicos
+            <h4 className="font-bold text-sm uppercase tracking-wider text-wheat mb-4">
+              Contato & Horários
             </h4>
             
-            <ul className="space-y-3.5 text-xs sm:text-sm text-zinc-400">
+            <ul className="space-y-3.5 text-xs sm:text-sm text-white/80">
               <li className="flex items-center gap-3">
-                <Phone className="w-4 h-4 text-brand-accent shrink-0" />
-                <a href={siteConfig.contact.phoneUrl} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                <Phone className="w-4 h-4 text-wheat shrink-0" />
+                <a href={`tel:${siteConfig.contact.phone.replace(/[^0-9]/g, '')}`} className="hover:text-white transition-colors">
                   {siteConfig.contact.phone}
                 </a>
               </li>
               <li className="flex items-center gap-3">
-                <Mail className="w-4 h-4 text-brand-accent shrink-0" />
-                <a href={`mailto:${siteConfig.contact.email}`} className="hover:text-white transition-colors">
-                  {siteConfig.contact.email}
-                </a>
-              </li>
-              <li className="flex items-start gap-3">
-                <MapPin className="w-4 h-4 text-brand-accent shrink-0 mt-0.5" />
+                <MapPin className="w-4 h-4 text-wheat shrink-0 mt-0.5" />
                 <span>
                   {siteConfig.contact.address}
                 </span>
+              </li>
+              <li className="flex items-start gap-3 pt-2">
+                <Clock className="w-4 h-4 text-wheat shrink-0 mt-0.5" />
+                <div className="flex flex-col">
+                  <span>{siteConfig.contact.hours.week}</span>
+                  <span>{siteConfig.contact.hours.sunday}</span>
+                </div>
               </li>
             </ul>
           </div>
 
           {/* Developer Branding */}
           <div className="md:col-span-3 flex flex-col items-center text-center relative md:-left-8">
-            <h4 className="font-bold text-sm uppercase tracking-wider text-brand-accent mb-4 w-full">
+            <h4 className="font-bold text-sm uppercase tracking-wider text-wheat mb-4 w-full">
               Desenvolvido por
             </h4>
             <a
@@ -103,9 +140,17 @@ export default function Footer() {
 
         {/* Legal and Compliance Footer */}
         <div className="text-[11px] text-white/50 leading-relaxed">
-          <div className="border-t border-brand-primary/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-white">
-            <p className="font-bold">
-              {siteConfig.name} | {siteConfig.crm}
+          <div className="border-t border-wine pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-white">
+            <p className="font-bold flex items-center gap-4">
+              © {currentYear} {siteConfig.name}. Todos os direitos reservados.
+              <span className="flex items-center gap-2">
+                <a href={siteConfig.social.instagram} target="_blank" rel="noopener noreferrer" className="hover:text-wheat transition-colors">
+                  <InstagramIcon className="w-4 h-4" />
+                </a>
+                <a href={siteConfig.social.facebook} target="_blank" rel="noopener noreferrer" className="hover:text-wheat transition-colors">
+                  <FacebookIcon className="w-4 h-4" />
+                </a>
+              </span>
             </p>
 
             
@@ -177,7 +222,7 @@ export default function Footer() {
                     href="https://alabz.com.br"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-brand-accent transition-colors flex items-center"
+                    className="hover:text-wheat transition-colors flex items-center"
                     title="Desenvolvido por Alabz - Soluções Digitais"
                   >
                     {chars.map((char, index) => {
