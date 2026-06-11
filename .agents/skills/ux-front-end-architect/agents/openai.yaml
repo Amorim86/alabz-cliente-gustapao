@@ -1,0 +1,7 @@
+interface:
+  display_name: "UX Front-End Architect"
+  short_description: "Analise e direcao visual para front-end"
+  default_prompt: "Use $ux-front-end-architect para analisar ou orientar uma interface com mais harmonia, clareza e precisao de implementacao."
+
+policy:
+  allow_implicit_invocation: true

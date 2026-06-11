@@ -1,0 +1,5 @@
+# DIRETRIZES GLOBAIS DE DESENVOLVIMENTO
+
+## Proatividade no Refinamento (Versão v1)
+*   **Oferta Proativa:** Sempre que estivermos trabalhando na versão base (`v1`) do projeto ou página, você DEVE oferecer proativamente ao usuário a execução da skill `/refinamento` para polir a estrutura e realizar a faxina/ajustes iniciais necessários.
+*   **Encaminhamento de Fluxo:** Ao concluir e apresentar a estrutura `v1`, lembre o usuário da disponibilidade da skill de refinamento para garantir um resultado inicial impecável e pergunte se ele gostaria de rodar o `/refinamento` naquele momento.
