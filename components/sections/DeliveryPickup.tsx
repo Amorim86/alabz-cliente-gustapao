@@ -1,59 +1,81 @@
 import { siteConfig } from "../../config/site";
 import SectionWrapper from "../SectionWrapper";
-import { PackageOpen, ShoppingBag } from "lucide-react";
+
+function TruckIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M1 3h15v13H1z"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>
+    </svg>
+  );
+}
+
+function StoreIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7"/><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"/><path d="M2 7h20"/><path d="M22 7v3a2 2 0 0 1-2 2v0a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12v0a2 2 0 0 1-2-2V7"/>
+    </svg>
+  );
+}
+
+function ArrowRightIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M5 12h14M12 5l7 7-7 7"/>
+    </svg>
+  );
+}
 
 export default function DeliveryPickup() {
   return (
-    <SectionWrapper className="bg-cream py-24">
-      <div className="flex flex-col items-center text-center mb-16">
-        <span className="text-wine font-bold text-xs uppercase tracking-widest mb-4">
-          Mais praticidade
+    <SectionWrapper className="bg-cream py-20">
+      {/* Header */}
+      <div className="mb-12">
+        <span className="text-wine font-bold text-[10px] uppercase tracking-[0.2em] mb-3 block">
+          Como Recebe
         </span>
-        <h2 className="font-serif text-4xl md:text-5xl text-coffee mb-6 max-w-2xl">
-          Peça do jeito mais fácil para você.
+        <h2 className="font-serif text-4xl md:text-5xl text-coffee leading-tight">
+          Do nosso forno para a sua mesa.
         </h2>
-        <p className="text-coffee/80 max-w-2xl text-lg">
-          Escolha suas delícias favoritas e fale diretamente com nossa equipe para consultar as opções disponíveis.
-        </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-        
-        {/* Delivery Card */}
-        <div className="bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-coffee/5 flex flex-col items-center text-center hover:shadow-md transition-shadow">
-          <div className="w-16 h-16 rounded-2xl bg-cream flex items-center justify-center text-wine mb-6">
-            <PackageOpen className="w-8 h-8" />
+      {/* Cards */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl">
+
+        {/* Entrega a Domicílio */}
+        <div className="bg-white rounded-2xl p-8 shadow-sm border border-coffee/5 flex flex-col hover:shadow-md transition-shadow duration-300">
+          <div className="w-12 h-12 rounded-full bg-wine-dark/10 flex items-center justify-center text-wine-dark mb-6 shrink-0">
+            <TruckIcon />
           </div>
-          <h3 className="font-serif text-2xl text-wine-dark mb-4">Receba seu pedido</h3>
-          <p className="text-coffee/70 mb-8 flex-1">
-            Consulte a disponibilidade de entrega para sua região e faça seu pedido pelo WhatsApp.
+          <h3 className="font-serif text-xl text-coffee mb-3">Entrega a domicílio</h3>
+          <p className="text-coffee/65 text-sm leading-relaxed mb-6 flex-1">
+            Entregas em Santa Teresa e bairros vizinhos. Pedidos pelo WhatsApp com agendamento. Fale conosco para verificar a disponibilidade para o seu endereço.
           </p>
           <a
             href={`https://wa.me/${siteConfig.contact.whatsappClean}?text=${encodeURIComponent(siteConfig.whatsappMessages.delivery)}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full bg-transparent border-2 border-wine text-wine hover:bg-wine hover:text-white font-bold text-center py-3 px-6 rounded-full transition-all duration-300"
+            className="inline-flex items-center gap-1.5 text-wine font-semibold text-sm hover:underline transition-all"
           >
-            Consultar Delivery
+            Pedir delivery <ArrowRightIcon />
           </a>
         </div>
 
-        {/* Retirada Card */}
-        <div className="bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-coffee/5 flex flex-col items-center text-center hover:shadow-md transition-shadow">
-          <div className="w-16 h-16 rounded-2xl bg-cream flex items-center justify-center text-wine mb-6">
-            <ShoppingBag className="w-8 h-8" />
+        {/* Retirada na Loja */}
+        <div className="bg-white rounded-2xl p-8 shadow-md border border-coffee/10 flex flex-col hover:shadow-lg transition-shadow duration-300 ring-1 ring-coffee/8">
+          <div className="w-12 h-12 rounded-full bg-wheat/30 flex items-center justify-center text-wine-dark mb-6 shrink-0">
+            <StoreIcon />
           </div>
-          <h3 className="font-serif text-2xl text-wine-dark mb-4">Retire na unidade Afonso Pena</h3>
-          <p className="text-coffee/70 mb-8 flex-1">
-            Antecipe seu pedido e retire diretamente na Big Pão.
+          <h3 className="font-serif text-xl text-coffee mb-3">Retirada na loja</h3>
+          <p className="text-coffee/65 text-sm leading-relaxed mb-6 flex-1">
+            Venha nos visitar! Aberta todos os dias, das 6h às 22h. Retire os seus pedidos fresquinhos na R. Alm. Alexandrino, 2301 — Santa Teresa.
           </p>
           <a
-            href={`https://wa.me/${siteConfig.contact.whatsappClean}?text=${encodeURIComponent(siteConfig.whatsappMessages.retirada)}`}
+            href={siteConfig.links.maps}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full bg-transparent border-2 border-wine text-wine hover:bg-wine hover:text-white font-bold text-center py-3 px-6 rounded-full transition-all duration-300"
+            className="inline-flex items-center gap-1.5 text-wine font-semibold text-sm hover:underline transition-all"
           >
-            Pedir para Retirar
+            Ver endereço <ArrowRightIcon />
           </a>
         </div>
 

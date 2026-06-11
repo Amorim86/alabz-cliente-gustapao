@@ -1,41 +1,45 @@
 import { siteConfig } from "../../config/site";
-import SectionWrapper from "../SectionWrapper";
-import { Clock, MapPin, Star, ShieldCheck } from "lucide-react";
+
+const metrics = [
+  {
+    value: "1984",
+    label: "Mais de 40 anos de história",
+  },
+  {
+    value: "4,6★",
+    label: "Excelente no Google",
+  },
+  {
+    value: "4.027",
+    label: "Clientes satisfeitos",
+  },
+  {
+    value: "7×",
+    label: "Aberto todos os dias",
+  },
+];
 
 export default function TrustBanner() {
   return (
-    <SectionWrapper className="bg-wine-dark py-12 border-y border-white/10">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4 divide-x-0 md:divide-x divide-white/10">
-        
-        {/* Bloco 1 */}
-        <div className="flex flex-col items-center text-center px-4">
-          <ShieldCheck className="w-8 h-8 text-wheat mb-3" />
-          <span className="font-serif text-2xl text-cream mb-1">{siteConfig.history}</span>
-          <span className="text-white/70 text-xs md:text-sm">Mais de quatro décadas de tradição.</span>
+    <div className="bg-wine-dark">
+      <div className="max-w-[1400px] mx-auto px-4 md:px-12">
+        <div className="grid grid-cols-2 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-white/10 border-t border-white/10">
+          {metrics.map((metric) => (
+            <div
+              key={metric.value}
+              className="flex flex-col items-center text-center py-8 md:py-10 px-4"
+            >
+              <span className="font-serif text-3xl md:text-4xl text-wheat font-normal leading-none mb-2">
+                {metric.value}
+              </span>
+              <span className="text-white/60 text-xs md:text-sm leading-tight max-w-[120px]">
+                {metric.label}
+              </span>
+            </div>
+          ))}
         </div>
-
-        {/* Bloco 2 */}
-        <div className="flex flex-col items-center text-center px-4">
-          <Star className="w-8 h-8 text-wheat mb-3" />
-          <span className="font-serif text-2xl text-cream mb-1">{siteConfig.socialProof.googleRating} no Google</span>
-          <span className="text-white/70 text-xs md:text-sm">Uma experiência aprovada pelos clientes.</span>
-        </div>
-
-        {/* Bloco 3 */}
-        <div className="flex flex-col items-center text-center px-4">
-          <MapPin className="w-8 h-8 text-wheat mb-3" />
-          <span className="font-serif text-2xl text-cream mb-1">{siteConfig.socialProof.reviewsCount} avaliações</span>
-          <span className="text-white/70 text-xs md:text-sm">Confiança construída todos os dias.</span>
-        </div>
-
-        {/* Bloco 4 */}
-        <div className="flex flex-col items-center text-center px-4">
-          <Clock className="w-8 h-8 text-wheat mb-3" />
-          <span className="font-serif text-2xl text-cream mb-1">Aberto todos os dias</span>
-          <span className="text-white/70 text-xs md:text-sm">Para diferentes momentos da rotina.</span>
-        </div>
-
       </div>
-    </SectionWrapper>
+    </div>
   );
 }
+

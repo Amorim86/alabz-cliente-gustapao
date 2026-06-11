@@ -26,3 +26,9 @@ body {
   font-family: var(--font-sans), sans-serif;
   overflow-x: hidden;
 }
+
+@keyframes heroScale {
+  from { transform: scale(1.05); }
+  to   { transform: scale(1.12); }
+}
+

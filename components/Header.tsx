@@ -4,6 +4,20 @@ import { useState, useEffect } from "react";
 import { siteConfig } from "../config/site";
 import { Menu, X } from "lucide-react";
 
+function WhatsAppIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className="w-4 h-4"
+    >
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.532 5.855L.054 23.75a.5.5 0 0 0 .616.625l6.08-1.594A11.94 11.94 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.714 9.714 0 0 1-4.951-1.355l-.355-.211-3.68.965.981-3.589-.231-.369A9.718 9.718 0 0 1 2.25 12C2.25 6.615 6.615 2.25 12 2.25S21.75 6.615 21.75 12 17.385 21.75 12 21.75z" />
+    </svg>
+  );
+}
+
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -24,10 +38,11 @@ export default function Header() {
     >
       <div className="max-w-[1400px] mx-auto px-4 md:px-12 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-3 relative z-50">
-          <div className="bg-white p-1 rounded-full overflow-hidden w-12 h-12 flex items-center justify-center shrink-0">
-             <img src="/logo original bigpao.jpg" alt={siteConfig.name} className="w-full h-full object-cover" />
+        <a href="#" className="flex items-center gap-2 relative z-50">
+          <div className="bg-white p-0.5 rounded-full overflow-hidden w-9 h-9 flex items-center justify-center shrink-0">
+            <img src="/logo original bigpao.jpg" alt={siteConfig.name} className="w-full h-full object-cover" />
           </div>
+          <span className="text-white font-bold text-base tracking-wide hidden sm:block">Big Pão</span>
         </a>
 
         {/* Desktop Nav */}
@@ -48,8 +63,9 @@ export default function Header() {
             href={`https://wa.me/${siteConfig.contact.whatsappClean}?text=${encodeURIComponent(siteConfig.whatsappMessages.pedido)}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-wheat text-coffee hover:bg-cream px-6 py-2.5 rounded-full font-bold text-sm transition-all"
+            className="bg-wheat text-coffee hover:bg-wheat/85 px-5 py-2.5 rounded-full font-bold text-sm transition-all flex items-center gap-2 shadow-sm"
           >
+            <WhatsAppIcon />
             Pedir pelo WhatsApp
           </a>
         </nav>
