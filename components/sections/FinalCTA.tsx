@@ -26,7 +26,7 @@ export default function FinalCTA() {
         </span>
 
         <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl text-white mb-6 leading-[1.05] drop-shadow-md">
-          Seu próximo momento gostoso começa aqui.
+          Seu próximo momento gostoso começa aqui
         </h2>
 
         <p className="text-white/65 text-base md:text-lg mb-12 max-w-xl leading-relaxed">

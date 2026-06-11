@@ -34,7 +34,7 @@ export default function DeliveryPickup() {
           Como Recebe
         </span>
         <h2 className="font-serif text-4xl md:text-5xl text-coffee leading-tight">
-          Do nosso forno para a sua mesa.
+          Do nosso forno para a sua mesa
         </h2>
       </div>
 

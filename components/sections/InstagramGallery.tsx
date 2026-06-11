@@ -39,7 +39,7 @@ export default function InstagramGallery() {
             Novidades da Big Pão
           </span>
           <h2 className="font-serif text-4xl md:text-5xl text-coffee leading-tight">
-            Sabores que também conquistam pelas imagens.
+            Sabores que também conquistam pelas imagens
           </h2>
         </div>
         <a

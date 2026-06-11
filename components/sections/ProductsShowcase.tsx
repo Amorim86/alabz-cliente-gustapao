@@ -91,7 +91,7 @@ export default function ProductsShowcase() {
             Nossos Produtos
           </span>
           <h2 className="font-serif text-4xl md:text-5xl text-coffee leading-tight max-w-md">
-            Tem sempre algo gostoso esperando por você.
+             Tem sempre algo gostoso esperando por você
           </h2>
         </div>
         <div className="shrink-0">

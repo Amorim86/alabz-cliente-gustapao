@@ -10,7 +10,7 @@ export default function ExperienceBlock() {
         <div className="w-full md:w-[55%] min-h-[360px] md:min-h-[580px] bg-[#c8bfb0] relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-transparent to-transparent z-10" />
           <SafeImage
-            src="/exp-bakery.png"
+            src="/6 uma pausa.png"
             alt="Ambiente acolhedor da padaria Big Pão"
             className="absolute inset-0 w-full h-full object-cover"
           />
@@ -27,7 +27,7 @@ export default function ExperienceBlock() {
           <div className="w-full px-8 md:px-14 py-14 md:py-20 max-w-lg">
 
             <h2 className="font-serif text-4xl md:text-5xl text-coffee leading-tight mb-6">
-              Uma pausa gostosa muda o ritmo do dia.
+              Uma pausa gostosa muda o ritmo do dia
             </h2>
 
             <p className="text-coffee/70 text-base mb-8 leading-relaxed">

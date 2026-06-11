@@ -43,7 +43,7 @@ export default function SocialProof() {
           </span>
 
           <h2 className="font-serif text-4xl md:text-5xl text-coffee leading-tight mb-8">
-            Uma escolha aprovada por milhares de clientes.
+             Uma escolha aprovada por milhares de clientes
           </h2>
 
           {/* Nota grande */}

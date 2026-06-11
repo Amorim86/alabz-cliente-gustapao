@@ -14,8 +14,9 @@ Antes de executar qualquer operação de commit ou push, você é ESTRITAMENTE P
 
 Toda vez que o código estiver pronto para subir para o repositório, você DEVE interromper o fluxo e me apresentar OBRIGATORIAMENTE um menu de opções no chat (use as opções de confirmação nativas da interface do Antigravity) com as seguintes alternativas:
 
-1. **🟡 Atualizar Homologação (Vercel Preview):** O código será commitado e enviado EXCLUSIVAMENTE para a branch fixa `homologacao` para validação do cliente. É terminantemente proibido criar branches dinâmicas para features.
-2. **🟢 Push para a Main (Vercel Production):** O código irá direto para a rota principal (branch `main`), acionando o deploy imediato no domínio oficial.
+1. **🔵 Apenas Commit Local (Sem Push):** O código será commitado localmente na branch atual para salvar o progresso, gerando e exibindo o hash do commit, mas sem realizar push.
+2. **🟡 Atualizar Homologação (Vercel Preview):** O código será commitado e enviado EXCLUSIVAMENTE para a branch fixa `homologacao` para validação do cliente. É terminantemente proibido criar branches dinâmicas para features.
+3. **🟢 Push para a Main (Vercel Production):** O código irá direto para a rota principal (branch `main`), acionando o deploy imediato no domínio oficial.
 
 Aguarde a minha escolha. Execute estritamente a opção selecionada. 
 
@@ -74,6 +75,59 @@ Para todas as seções globais (`<section>`) do site, você DEVE adotar a seguin
 <section className="relative w-full overflow-hidden">
   <div className="mx-auto w-full px-4 md:px-12 max-w-[1400px]">
     {/* Conteúdo da seção */}
+  </div>
+</section>
+```
+
+### REGRA DE FUSÃO SUAVE DE IMAGEM E DESIGN (BLEND/FADE LAYOUT)
+Para layouts que utilizam uma imagem ocupando uma lateral da seção e conteúdo textual na outra, é obrigatório aplicar um efeito de fusão (blend/fade) suave para que a imagem se misture gradualmente com a cor de fundo da seção, evitando linhas divisórias secas e amadoras.
+
+#### Diretrizes de Implementação:
+1. **Container da Imagem**: Deve ser `relative` e dimensionado corretamente (ex: `w-full md:w-1/2` em layouts bipartidos).
+2. **Tag da Imagem**: A imagem (seja `<img>` ou `<Image>` do Next.js) deve usar as classes `w-full h-full object-cover`.
+3. **Div de Overlay Absoluto**: Posicionada na borda onde a imagem encontra o fundo da seção:
+   - Se a imagem está na **esquerda** (transição para a direita): use `absolute inset-y-0 right-0 w-24 md:w-48`.
+   - Se a imagem está na **direita** (transição para a esquerda): use `absolute inset-y-0 left-0 w-24 md:w-48`.
+   - Classes obrigatórias no overlay: `pointer-events-none z-10`.
+4. **Gradiente do Fundo**: O gradiente na div de overlay deve ir de `transparent` até a **cor exata de fundo** da seção (`COR_DE_FUNDO`).
+   - Transição para a direita: `bg-gradient-to-r from-transparent to-COR_DE_FUNDO` (ex: `to-[#FDFBF7]` ou `to-white`).
+   - Transição para a esquerda: `bg-gradient-to-l from-transparent to-COR_DE_FUNDO`.
+
+#### Modelos de Disposição do Texto:
+1. **Texto Alinhado (Colunas Dedicadas)**: O texto fica em sua própria coluna limpa, sem invadir a imagem.
+2. **Texto Deslocado (Offset/Sobreposição)**: O texto é deslocado horizontalmente (ex: margem negativa ou posicionamento absoluto) para se sobrepor suavemente à borda fundida da imagem, criando um layout editorial premium.
+
+**Exemplo Prático (Imagem na Esquerda com Fusão para a Direita, Fundo `#FDFBF7`):**
+```tsx
+<section className="relative w-full overflow-hidden bg-[#FDFBF7] py-16 md:py-24">
+  <div className="mx-auto w-full px-4 md:px-12 max-w-[1400px]">
+    <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+      
+      {/* Container da Imagem com Efeito de Fusão */}
+      <div className="relative col-span-1 md:col-span-6 h-[400px] md:h-[500px] rounded-2xl overflow-hidden">
+        <img 
+          src="/exemplo-paes.jpg" 
+          alt="Café e Padaria Caseira" 
+          className="w-full h-full object-cover"
+        />
+        {/* Overlay do Gradiente de Fusão (suaviza a transição da esquerda para a direita) */}
+        <div className="absolute inset-y-0 right-0 w-24 md:w-48 pointer-events-none z-10 bg-gradient-to-r from-transparent to-[#FDFBF7]" />
+      </div>
+
+      {/* Conteúdo Textual (Opção: Alinhado na sua Coluna) */}
+      <div className="col-span-1 md:col-span-6 md:pl-8 flex flex-col justify-center">
+        <h2 className="text-3xl md:text-5xl font-serif text-[#3D1A1A] mb-6">
+          Uma pausa gostosa muda o ritmo do dia.
+        </h2>
+        <p className="text-sm md:text-base text-gray-600 mb-6 leading-relaxed">
+          Seja para tomar um café, encontrar alguém ou levar suas escolhas favoritas para casa.
+        </p>
+      </div>
+
+      {/* Opção (Texto Deslocado/Offset): Caso queira que o texto sobreponha suavemente a fusão, 
+          basta aplicar classes como md:-ml-12 md:z-20 no container de texto. */}
+          
+    </div>
   </div>
 </section>
 ```

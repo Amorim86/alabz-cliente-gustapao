@@ -23,7 +23,7 @@ export default function HistoryTimeline() {
 
           {/* Headline */}
           <h2 className="font-serif text-4xl md:text-5xl text-coffee leading-tight mb-8 relative z-10">
-            Quatro décadas de amor pela panificação.
+            Quatro décadas de amor pela panificação
           </h2>
 
           {/* Divider */}

@@ -15,7 +15,7 @@ export default function OrdersSection() {
             </span>
 
             <h2 className="font-serif text-4xl md:text-5xl text-cream mb-6 leading-tight">
-              Sua ocasião merece um sabor especial.
+              Sua ocasião merece um sabor especial
             </h2>
 
             <p className="text-white/75 text-base mb-4 leading-relaxed">
@@ -41,7 +41,7 @@ export default function OrdersSection() {
         {/* Lado direito — Imagem full height (50%) */}
         <div className="w-full md:w-1/2 min-h-[400px] md:min-h-[600px] relative bg-[#c8bfb0]">
           <SafeImage
-            src="/orders-cakes.png"
+            src="/_8 encomendas.png"
             alt="Bolos e cestas sob encomenda da Big Pão"
             className="absolute inset-0 w-full h-full object-cover"
           />

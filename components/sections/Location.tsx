@@ -38,7 +38,7 @@ export default function Location() {
           </span>
 
           <h2 className="font-serif text-4xl md:text-5xl text-coffee leading-tight mb-8">
-            Venha nos visitar no Afonso Pena.
+            Venha nos visitar no Afonso Pena
           </h2>
 
           <div className="space-y-6 mb-10">
