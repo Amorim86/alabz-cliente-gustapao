@@ -19,8 +19,8 @@ export default function HeroSection() {
           alt="Mesa farta de padaria da Big Pão"
           className="absolute inset-0 w-full h-full object-cover object-center scale-105 z-0 hero-animate"
         />
-        {/* Gradient overlay — vertical no mobile (suave, evita risco e melhora contraste), horizontal no desktop */}
-        <div className="absolute inset-0 bg-gradient-to-b from-wine-dark/85 via-wine-dark/40 to-wine-dark/85 md:bg-gradient-to-r md:from-wine-dark/98 md:via-wine-dark/75 md:to-black/10 z-10" />
+        {/* Overlay — uniforme bg-wine-dark/70 no mobile (zero riscos), horizontal no desktop */}
+        <div className="absolute inset-0 bg-wine-dark/70 md:bg-transparent md:bg-gradient-to-r md:from-wine-dark/98 md:via-wine-dark/75 md:to-black/10 z-10" />
       </div>
 
       {/* Content */}

@@ -1,4 +1,4 @@
-const APP_VERSION = 'v8';
+const APP_VERSION = 'v9';
 
 export default function VersionBadge() {
   // A regra de exibição de VersionBadge na UI está revogada.
