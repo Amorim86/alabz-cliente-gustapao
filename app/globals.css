@@ -32,3 +32,10 @@ body {
   to   { transform: scale(1.12); }
 }
 
+@media (min-width: 768px) {
+  .hero-animate {
+    animation: heroScale 8s ease-in-out infinite alternate;
+  }
+}
+
+
