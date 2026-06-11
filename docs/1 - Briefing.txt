@@ -1,0 +1,793 @@
+TAREFA
+Criar uma landing page comercial, responsiva e altamente visual para a Big Pão Panificadora e Confeitaria, considerando exclusivamente a unidade Afonso Pena, em São José dos Pinhais — PR.
+
+A página deve apresentar os produtos e serviços sem exibir preços, despertar desejo pelas imagens e conduzir o visitante para quatro ações:
+
+1. Pedir pelo WhatsApp.
+2. Ver cardápio.
+3. Fazer encomenda.
+4. Como chegar.
+
+Antes de editar qualquer arquivo:
+
+1. Inspecione todo o workspace.
+2. Identifique a stack, estrutura de pastas, componentes e padrões existentes.
+3. Gere um plano de tarefas objetivo.
+4. Informe quais arquivos pretende criar ou modificar.
+5. Preserve a stack atual e não substitua a arquitetura sem necessidade.
+6. Caso exista uma página anterior, crie uma versão temporária ou backup antes de alterar a principal.
+
+CLIENTE
+
+Nome: Big Pão Panificadora e Confeitaria
+Slug: big-pao
+Unidade do projeto: Afonso Pena
+Segmento: panificadora, confeitaria e alimentação
+Cidade: São José dos Pinhais — PR
+Posicionamento: tradição, variedade, proximidade e desejo gastronômico
+Assinatura confirmada: Desde 1984
+
+OBJETIVO COMERCIAL
+
+Criar uma vitrine digital que “venda com os olhos”.
+
+A landing deve:
+
+- destacar fotografias de produtos em grande escala;
+- apresentar a tradição da empresa;
+- mostrar produtos e serviços sem preços;
+- reforçar a reputação no Google;
+- estimular pedidos e encomendas;
+- facilitar a visita à unidade Afonso Pena;
+- priorizar conversão pelo WhatsApp;
+- funcionar muito bem no celular.
+
+REFERÊNCIA VISUAL
+
+Usar como referência de qualidade, ritmo editorial e composição:
+
+https://panificadoramana.com.br/
+
+A referência é apenas inspiração.
+
+NÃO:
+
+- copiar código;
+- copiar textos;
+- copiar fotografias;
+- copiar ícones;
+- copiar identidade visual;
+- usar o azul ou os símbolos característicos da referência;
+- mencionar a referência na página;
+- inserir a URL da referência na interface, nos metadados ou no conteúdo visível;
+- deixar comentários públicos indicando que o layout foi inspirado nesse site.
+
+Aplicar apenas princípios como:
+
+- fotografias amplas;
+- composição editorial;
+- alternância entre imagens e textos;
+- títulos marcantes;
+- navegação simples;
+- seções com bom respiro;
+- produtos como protagonistas;
+- sensação de tradição e acolhimento.
+
+DADOS CONFIRMADOS
+
+Nome:
+Big Pão Panificadora e Confeitaria
+
+Unidade:
+Afonso Pena
+
+Endereço:
+R. Alm. Alexandrino, 2301 — Afonso Pena
+São José dos Pinhais — PR
+CEP 83040-420
+
+WhatsApp:
+(41) 98525-1177
+
+WhatsApp em formato internacional:
+5541985251177
+
+Telefone:
+(41) 3383-0111
+
+Horários:
+Segunda a sábado: 06:30 às 22:00
+Domingo: 07:00 às 22:00
+
+História:
+Desde 1984
+
+Prova social fornecida:
+Nota 4,6 no Google
+4.027 avaliações no Google
+
+Modalidades confirmadas:
+Delivery
+Retirada
+
+Instagram:
+https://www.instagram.com/bigpaopanificadoraeconfeitaria/?hl=pt
+
+Facebook:
+https://www.facebook.com/bigpaopanificadoraeconfeitariaa/
+
+Domínio desejado:
+panificadorabigpao.com.br
+
+O domínio é desejado, mas o registro e a disponibilidade definitiva ainda devem ser tratados como pendência. Não configurar canonical de produção sem confirmação.
+
+IDENTIDADE VISUAL
+
+Preservar a identidade da logo atual.
+
+Elementos identificados:
+
+- formato oval;
+- vinho como cor principal;
+- amarelo trigo;
+- lettering branco;
+- espigas de trigo;
+- assinatura “Desde 1984”;
+- estética tradicional e familiar.
+
+Não redesenhar a logo.
+
+Usar o arquivo real da logo presente no workspace. Caso ainda não exista, criar um espaço de asset claramente identificado no código, sem desenhar uma logo alternativa.
+
+PALETA PROVISÓRIA
+
+As cores são aproximações visuais e devem ficar organizadas em variáveis ou tokens fáceis de alterar:
+
+--color-wine: #983236;
+--color-wine-dark: #641F24;
+--color-wheat: #F4D900;
+--color-cream: #FFF5E5;
+--color-soft-white: #FFFDF8;
+--color-coffee: #34211C;
+--color-caramel: #BD7B3F;
+--color-whatsapp: #25D366;
+
+Usar predominantemente:
+
+- creme e branco quente nos fundos;
+- vinho nas áreas institucionais;
+- marrom café para contraste;
+- amarelo trigo apenas em detalhes e destaques.
+
+Evitar páginas inteiras em amarelo ou vinho.
+
+TIPOGRAFIA
+
+Sugestão:
+
+Títulos:
+DM Serif Display
+
+Textos, botões e interface:
+DM Sans
+
+Caso essas fontes não estejam disponíveis ou não façam sentido na stack existente, selecionar fontes equivalentes.
+
+Não usar tipografia manuscrita em textos longos. O efeito manuscrito deve permanecer concentrado na própria logo.
+
+CONCEITO VISUAL
+
+“Tradição que desperta o apetite.”
+
+A página deve transmitir:
+
+- produtos frescos;
+- fartura;
+- proximidade;
+- ambiente familiar;
+- tradição local;
+- cuidado;
+- vontade de experimentar.
+
+Evitar:
+
+- aparência genérica de template;
+- estética fria;
+- visual corporativo;
+- minimalismo excessivamente vazio;
+- aparência de restaurante gourmet de luxo;
+- excesso de sombras;
+- excesso de cards iguais;
+- animações chamativas;
+- imagens genéricas que não representem a Big Pão.
+
+ESTRUTURA DA LANDING PAGE
+
+1. HEADER
+
+Elementos:
+
+- logo;
+- links por âncora;
+- Produtos;
+- Encomendas;
+- Nossa história;
+- Avaliações;
+- Localização;
+- botão “Pedir pelo WhatsApp”.
+
+Comportamento:
+
+- transparente sobre o hero;
+- fundo vinho sólido ou translúcido após rolagem;
+- navegação compacta no mobile;
+- evitar header alto;
+- manter CTA acessível.
+
+2. HERO
+
+Selo:
+PANIFICADORA E CONFEITARIA DESDE 1984
+
+Headline:
+Tradição e sabores que fazem parte do seu dia.
+
+Subheadline:
+Pães fresquinhos, confeitaria e uma variedade preparada para deixar o café, o lanche e os momentos especiais ainda mais gostosos.
+
+Informação complementar:
+Unidade Afonso Pena • São José dos Pinhais
+
+CTA principal:
+Pedir pelo WhatsApp
+
+CTA secundário:
+Ver cardápio
+
+Direção:
+
+- fotografia gastronômica real em grande escala;
+- overlay vinho em degradê;
+- headline clara;
+- imagem com sensação de mesa farta;
+- CTA visível na primeira dobra;
+- selo “Desde 1984” integrado sem poluição.
+
+Não usar imagem aleatória de banco como se fosse produto real da Big Pão.
+
+Caso não existam fotografias no workspace, criar slots de imagem elegantes e claramente marcados no código como placeholders.
+
+3. FAIXA DE CONFIANÇA
+
+Exibir:
+
+Desde 1984
+Mais de quatro décadas de tradição.
+
+4,6 no Google
+Uma experiência aprovada pelos clientes.
+
+4.027 avaliações
+Confiança construída todos os dias.
+
+Aberto todos os dias
+Para acompanhar diferentes momentos da rotina.
+
+Usar fundo vinho profundo, números grandes e detalhes amarelos.
+
+No mobile, usar grade 2 × 2. Não usar carrossel automático.
+
+4. PRODUTOS
+
+Selo:
+SABORES PARA TODOS OS MOMENTOS
+
+Título:
+Tem sempre algo gostoso esperando por você.
+
+Texto:
+Da primeira refeição do dia àquela pausa especial, a Big Pão reúne variedade, tradição e produtos preparados para você aproveitar no local ou levar para casa.
+
+CTA:
+Ver cardápio
+
+A lista oficial de categorias e os produtos prioritários ainda são pendências.
+
+Portanto:
+
+- criar uma estrutura flexível baseada em dados;
+- deixar as categorias fáceis de substituir;
+- não apresentar preços;
+- não inventar nomes específicos de produtos;
+- não afirmar que um item está disponível sem confirmação;
+- usar uma composição em mosaico editorial;
+- documentar no código onde as categorias serão inseridas;
+- usar placeholders visuais somente quando necessário.
+
+O botão “Ver cardápio” deve abrir o WhatsApp enquanto o link oficial do cardápio não estiver disponível.
+
+Mensagem:
+
+Olá! Vim pelo site da Big Pão e gostaria de receber o cardápio.
+
+5. BLOCO DE EXPERIÊNCIA
+
+Título:
+Uma pausa gostosa muda o ritmo do dia.
+
+Texto:
+Seja para tomar um café, encontrar alguém, fazer uma refeição ou levar suas escolhas favoritas para casa, a Big Pão está pronta para receber você.
+
+Destaque:
+Variedade, sabor e uma tradição presente em São José dos Pinhais desde 1984.
+
+Usar composição dividida entre fotografia e texto, com bastante respiro.
+
+6. ENCOMENDAS
+
+Selo:
+MOMENTOS ESPECIAIS
+
+Título:
+Sua ocasião merece um sabor especial.
+
+Texto:
+Conte com a Big Pão para preparar opções que tornam comemorações, encontros e presentes ainda mais marcantes.
+
+Complemento:
+Fale com nossa equipe, conheça as opções disponíveis e encontre a escolha certa para o seu momento.
+
+CTA:
+Fazer encomenda
+
+Mensagem do WhatsApp:
+Olá! Vim pelo site da Big Pão e gostaria de saber mais sobre as encomendas.
+
+Não informar:
+
+- produtos disponíveis;
+- quantidades;
+- preços;
+- personalizações;
+- prazos;
+- regras de cancelamento.
+
+Esses dados ainda não foram confirmados.
+
+7. DELIVERY E RETIRADA
+
+Selo:
+MAIS PRATICIDADE
+
+Título:
+Peça do jeito mais fácil para você.
+
+Introdução:
+Escolha suas delícias favoritas e fale diretamente com nossa equipe para consultar as opções disponíveis.
+
+Bloco delivery:
+
+Título:
+Receba seu pedido
+
+Texto:
+Consulte a disponibilidade de entrega para sua região e faça seu pedido pelo WhatsApp.
+
+Bloco retirada:
+
+Título:
+Retire na unidade Afonso Pena
+
+Texto:
+Antecipe seu pedido e retire diretamente na Big Pão.
+
+CTA:
+Pedir pelo WhatsApp
+
+Mensagem:
+Olá! Vim pelo site da Big Pão e gostaria de fazer um pedido. Poderiam me informar as opções de delivery ou retirada?
+
+Não informar taxa, área de entrega, pedido mínimo ou prazo.
+
+8. HISTÓRIA
+
+Selo:
+NOSSA HISTÓRIA
+
+Título:
+Uma tradição que começou em 1984.
+
+Texto:
+
+Há mais de quatro décadas, a Big Pão faz parte da rotina de São José dos Pinhais. Uma história construída com trabalho, dedicação e sabores presentes em diferentes momentos do dia.
+
+Na unidade Afonso Pena, tradição e variedade se encontram para receber famílias, amigos e clientes que procuram uma experiência gostosa e acolhedora.
+
+Do pão que acompanha o café às escolhas para uma ocasião especial, cada visita ajuda a continuar uma história que atravessa gerações.
+
+Destaque:
+Desde 1984
+
+Não mencionar:
+
+- nome de fundador;
+- antiga frutaria;
+- história familiar;
+- outras unidades;
+- datas de expansão.
+
+Essas informações não estão confirmadas.
+
+9. PROVA SOCIAL
+
+Selo:
+QUEM CONHECE, RECOMENDA
+
+Título:
+Uma escolha aprovada por milhares de clientes.
+
+Destaque:
+4,6 estrelas no Google
+
+Complemento:
+Com base em 4.027 avaliações.
+
+Texto:
+A confiança dos clientes reflete uma trajetória construída com tradição, variedade e atendimento presente no dia a dia da comunidade.
+
+Preparar uma área para três depoimentos reais, mas não inventar depoimentos.
+
+Enquanto os depoimentos não estiverem disponíveis:
+
+- ocultar os cards;
+ou
+- usar placeholders apenas no ambiente de desenvolvimento.
+
+Não publicar frases fictícias atribuídas a clientes.
+
+10. GALERIA E INSTAGRAM
+
+Selo:
+NOVIDADES DA BIG PÃO
+
+Título:
+Sabores que também conquistam pelas imagens.
+
+Texto:
+Acompanhe nossos produtos, novidades e momentos especiais nas redes sociais.
+
+CTA:
+Ver Instagram
+
+Usar galeria manual com imagens locais otimizadas.
+
+Não incorporar um feed pesado.
+Não fazer scraping.
+Não fazer hotlink de imagens das redes sociais.
+Não baixar imagens de terceiros automaticamente.
+
+11. LOCALIZAÇÃO
+
+Selo:
+UNIDADE AFONSO PENA
+
+Título:
+Venha viver essa experiência de perto.
+
+Texto:
+Visite a Big Pão no Afonso Pena e encontre variedade para diferentes momentos do seu dia.
+
+Endereço:
+R. Alm. Alexandrino, 2301 — Afonso Pena
+São José dos Pinhais — PR
+CEP 83040-420
+
+Horários:
+Segunda a sábado: 06:30 às 22:00
+Domingo: 07:00 às 22:00
+
+WhatsApp:
+(41) 98525-1177
+
+Telefone:
+(41) 3383-0111
+
+CTA principal:
+Como chegar
+
+CTA secundário:
+Falar pelo WhatsApp
+
+Link provisório para rota:
+
+https://www.google.com/maps/search/?api=1&query=R.%20Alm.%20Alexandrino%2C%202301%20-%20Afonso%20Pena%2C%20S%C3%A3o%20Jos%C3%A9%20dos%20Pinhais%20-%20PR%2C%2083040-420
+
+Tratar somente da unidade Afonso Pena.
+
+Não mencionar, pesquisar ou adicionar outras unidades.
+
+12. CTA FINAL
+
+Selo:
+BATEU A VONTADE?
+
+Headline:
+Seu próximo momento gostoso começa aqui.
+
+Texto:
+Consulte o cardápio, faça seu pedido ou fale com a equipe da Big Pão pelo WhatsApp.
+
+Botões:
+
+Pedir pelo WhatsApp
+Como chegar
+
+Usar imagem gastronômica em close, overlay vinho e poucos elementos.
+
+13. RODAPÉ
+
+Exibir:
+
+Big Pão Panificadora e Confeitaria
+Tradição em São José dos Pinhais desde 1984.
+
+R. Alm. Alexandrino, 2301 — Afonso Pena
+São José dos Pinhais — PR
+
+WhatsApp: (41) 98525-1177
+Telefone: (41) 3383-0111
+
+Segunda a sábado: 06:30 às 22:00
+Domingo: 07:00 às 22:00
+
+Instagram
+Facebook
+
+© Big Pão. Todos os direitos reservados.
+E o footer maravilhoso do pacman
+
+LINKS E MENSAGENS DE WHATSAPP
+
+Pedido:
+
+https://wa.me/5541985251177?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Big%20P%C3%A3o%20e%20gostaria%20de%20fazer%20um%20pedido.
+
+Cardápio:
+
+https://wa.me/5541985251177?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Big%20P%C3%A3o%20e%20gostaria%20de%20receber%20o%20card%C3%A1pio.
+
+Encomenda:
+
+https://wa.me/5541985251177?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Big%20P%C3%A3o%20e%20gostaria%20de%20saber%20mais%20sobre%20as%20encomendas.
+
+Delivery ou retirada:
+
+https://wa.me/5541985251177?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Big%20P%C3%A3o%20e%20gostaria%20de%20fazer%20um%20pedido.%20Poderiam%20me%20informar%20as%20op%C3%A7%C3%B5es%20de%20delivery%20ou%20retirada%3F
+
+COMPORTAMENTO MOBILE
+
+Implementar mobile first.
+
+No celular:
+
+- manter CTA do WhatsApp visível cedo;
+- usar header compacto;
+- permitir leitura confortável;
+- manter corpo de texto com pelo menos 16 px;
+- usar botões com altura mínima de 48 px;
+- evitar textos longos no hero;
+- empilhar corretamente blocos de imagem e texto;
+- não usar carrosséis automáticos;
+- não esconder informações importantes em hover;
+- evitar elementos que cubram conteúdo.
+
+Criar uma barra inferior fixa e discreta com:
+
+- Pedir;
+- Cardápio;
+- Como chegar.
+
+A barra deve respeitar safe areas e não encobrir o rodapé ou os botões da página.
+
+IMAGENS
+
+Usar somente imagens presentes no workspace ou assets autorizados.
+
+Prioridades:
+
+1. Mesa farta para o hero.
+2. Pães ou fornadas.
+3. Confeitaria em close.
+4. Doces.
+5. Salgados.
+6. Café.
+7. Encomendas.
+8. Fachada Afonso Pena.
+9. Ambiente interno.
+10. Equipe ou produção.
+
+Caso os assets ainda não existam:
+
+- manter placeholders bem compostos;
+- usar nomes de arquivos descritivos;
+- criar um checklist de imagens faltantes;
+- não usar fotografias genéricas como conteúdo final;
+- não inventar produtos da Big Pão.
+
+ARQUITETURA E CÓDIGO
+
+Se o workspace já tiver uma aplicação:
+
+- respeitar a stack;
+- reutilizar componentes;
+- preservar padrões;
+- não instalar bibliotecas sem necessidade;
+- não quebrar rotas existentes;
+- não apagar conteúdo sem backup;
+- manter o código organizado.
+
+Se o workspace estiver vazio:
+
+- criar uma implementação estática leve e organizada;
+- preferir HTML semântico, CSS bem estruturado e JavaScript somente quando necessário;
+- não adicionar framework pesado para uma landing page simples;
+- separar conteúdo, estilos e comportamento de forma clara;
+- organizar assets em pasta própria.
+
+Centralizar informações alteráveis em uma configuração ou objeto de dados, incluindo:
+
+- contatos;
+- horários;
+- endereço;
+- links;
+- números da prova social;
+- textos;
+- categorias futuras;
+- imagens.
+
+Não espalhar dados críticos por vários arquivos.
+
+SEO
+
+Configurar:
+
+Title:
+Big Pão | Panificadora e Confeitaria no Afonso Pena
+
+Meta description:
+Conheça a Big Pão, panificadora e confeitaria no Afonso Pena, em São José dos Pinhais. Tradição desde 1984, pedidos, encomendas, delivery e retirada.
+
+Open Graph title:
+Big Pão — Tradição e sabor desde 1984
+
+Open Graph description:
+Produtos para diferentes momentos do dia, encomendas e pedidos na unidade Afonso Pena, em São José dos Pinhais.
+
+Adicionar:
+
+- HTML semântico;
+- headings em ordem correta;
+- alt text nas imagens;
+- informações locais estruturadas quando seguro;
+- favicon quando o asset estiver disponível;
+- imagem de compartilhamento quando fornecida.
+
+Não publicar schema com informações não confirmadas.
+
+ACESSIBILIDADE
+
+Garantir:
+
+- contraste adequado;
+- navegação por teclado;
+- foco visível;
+- aria-label em botões apenas quando necessário;
+- links com nomes claros;
+- imagens com alt útil;
+- suporte a prefers-reduced-motion;
+- nenhuma informação dependente exclusivamente de cor;
+- nenhuma ação dependente de hover.
+
+PERFORMANCE
+
+- otimizar imagens;
+- gerar WebP ou AVIF quando possível;
+- manter dimensões declaradas para evitar layout shift;
+- usar lazy loading abaixo da primeira dobra;
+- não carregar mapa pesado imediatamente;
+- evitar bibliotecas grandes;
+- reduzir JavaScript;
+- não usar vídeo pesado no hero;
+- evitar fontes e pesos desnecessários.
+
+ANIMAÇÕES
+
+Usar animações discretas:
+
+- fade e deslocamento leve na entrada;
+- zoom mínimo em imagens no hover;
+- transição suave do header;
+- feedback visual nos botões.
+
+Evitar:
+
+- parallax pesado;
+- animações infinitas;
+- carrosséis automáticos;
+- elementos pulsando;
+- movimentos que prejudiquem leitura;
+- efeitos que atrasem o acesso aos CTAs.
+
+PENDÊNCIAS
+
+Manter documentadas, sem inventar respostas:
+
+- cardápio oficial;
+- categorias prioritárias;
+- produtos mais vendidos;
+- link definitivo do cardápio;
+- logo transparente e vetorial;
+- favicon;
+- fotos reais;
+- foto da fachada;
+- fotos internas;
+- fotos de encomendas;
+- depoimentos reais;
+- história completa;
+- fundadores;
+- regras de delivery;
+- área de entrega;
+- taxas;
+- prazos;
+- formas de pagamento;
+- regras de encomenda;
+- estacionamento;
+- acessibilidade;
+- funcionamento em feriados;
+- registro do domínio.
+
+VALIDAÇÃO OBRIGATÓRIA
+
+Após implementar:
+
+1. Executar o projeto localmente.
+2. Abrir a página no navegador.
+3. Validar desktop e mobile.
+4. Testar larguras aproximadas de 360 px, 768 px, 1024 px e 1440 px.
+5. Testar todos os links e âncoras.
+6. Confirmar que os links do WhatsApp usam o número correto.
+7. Confirmar que apenas a unidade Afonso Pena aparece.
+8. Procurar horizontal overflow.
+9. Validar contraste e foco por teclado.
+10. Verificar se o CTA principal aparece na primeira dobra.
+11. Verificar se a barra mobile não cobre conteúdo.
+12. Verificar console e corrigir erros.
+13. Validar carregamento das imagens.
+14. Confirmar que não existem preços.
+15. Confirmar que não existem depoimentos inventados.
+16. Confirmar que a referência visual não aparece publicamente.
+17. Gerar screenshots do desktop e do mobile para revisão.
+18. Informar arquivos criados e modificados.
+19. Listar todas as pendências restantes.
+20. Não declarar a tarefa concluída enquanto houver erro visual ou funcional evidente.
+
+RESULTADO ESPERADO
+
+Entregar uma landing page:
+
+- visualmente forte;
+- gastronômica;
+- responsiva;
+- rápida;
+- acessível;
+- coerente com a logo;
+- com aparência personalizada;
+- focada em WhatsApp;
+- sem preços;
+- sem dados inventados;
+- restrita à unidade Afonso Pena;
+- pronta para receber os assets e o cardápio oficiais posteriormente.
+
+Não quebrar o layout ou funcionalidades existentes.
+
+Quando houver dúvida entre modificar diretamente a página atual ou criar uma nova versão, implementar primeiro em arquivo, rota ou versão temporária e validar no navegador antes de substituir a página principal.

@@ -1,0 +1,1592 @@
+# Estrutura da landing page — Big Pão Afonso Pena
+
+**CLIENTE_ATIVO:** Big Pão
+**Slug:** `big-pao`
+**Unidade:** Afonso Pena
+**Objetivo:** apresentar produtos e serviços de forma altamente visual, despertar desejo e gerar pedidos, encomendas e visitas à loja.
+
+## 1. Cabeçalho
+
+### Conteúdo
+
+* Logo Big Pão.
+* Menu: **Produtos · Encomendas · Nossa história · Localização**.
+* Botão destacado: **Pedir pelo WhatsApp**.
+
+### Comportamento sugerido
+
+* Cabeçalho transparente sobre o hero.
+* Após rolagem, fundo vinho sólido.
+* No celular, botão flutuante ou barra inferior de WhatsApp.
+* Navegação por âncoras, sem tirar o visitante da landing page.
+
+---
+
+## 2. Hero — vender com os olhos
+
+### Objetivo
+
+Causar impacto visual imediato e explicar rapidamente o que é a Big Pão.
+
+### Copy-base provisória
+
+**Selo:** Panificadora e Confeitaria desde 1984
+
+**Headline:**
+
+> Tradição e sabores que fazem parte do seu dia.
+
+**Subheadline:**
+
+> Pães, doces, salgados e muitas opções preparadas para deixar cada momento mais gostoso.
+
+### CTAs
+
+* **Pedir pelo WhatsApp** — principal.
+* **Ver cardápio** — secundário.
+
+### Direção visual
+
+* Fotografia ampla de produtos reais.
+* Mesa farta ou composição com pães, confeitaria e café.
+* Iluminação quente e natural.
+* Degradê vinho sobre a imagem para leitura.
+* Logo em destaque, mas sem ocupar espaço excessivo.
+
+### Pendência
+
+* Selecionar ou produzir a fotografia principal.
+* Confirmar categorias citadas na copy final.
+* Definir destino do botão “Ver cardápio”.
+
+---
+
+## 3. Faixa de confiança
+
+### Objetivo
+
+Apresentar os principais sinais de credibilidade logo após o hero.
+
+### Conteúdo
+
+**Desde 1984**
+Mais de quatro décadas de tradição.
+
+**4,6 no Google**
+Com base no número informado.
+
+**4.027 avaliações**
+Prova social de grande volume.
+
+**Aberto todos os dias**
+Horários amplos para atender diferentes momentos.
+
+### Observação
+
+Usar números grandes e pequenos ícones. A faixa pode ter fundo vinho escuro, texto creme e detalhes amarelos.
+
+---
+
+## 4. Produtos — uma vitrine visual
+
+### Objetivo
+
+Apresentar os produtos sem preços, priorizando fotografia, variedade e desejo.
+
+### Título provisório
+
+> Tem sempre algo gostoso esperando por você.
+
+### Texto de apoio
+
+> Do pão fresquinho às delícias da confeitaria, encontre opções para o café, o lanche, a refeição e os momentos especiais.
+
+### Estrutura
+
+Galeria editorial ou mosaico de imagens, evitando uma sequência genérica de cards iguais.
+
+### Categorias provisórias
+
+* Pães e fornadas.
+* Bolos e tortas.
+* Doces e confeitaria.
+* Salgados e lanches.
+* Café da manhã.
+* Refeições.
+* Cestas e presentes.
+
+### CTA
+
+**Ver cardápio**
+
+### Pendências
+
+* Confirmar todas as categorias.
+* Identificar os produtos mais vendidos.
+* Definir quais produtos terão destaque.
+* Obter cardápio atualizado.
+* Definir se o cardápio será página, PDF, imagem ou catálogo externo.
+
+---
+
+## 5. Seção de destaque gastronômico
+
+### Objetivo
+
+Criar um bloco emocional entre as categorias e os serviços, com uma imagem forte e pouco texto.
+
+### Título provisório
+
+> Sabores para aproveitar em qualquer momento do dia.
+
+### Texto provisório
+
+> Uma variedade preparada para quem quer começar bem a manhã, fazer uma pausa, reunir a família ou levar algo especial para casa.
+
+### Direção visual
+
+* Fotografia ocupando cerca de metade ou dois terços da tela.
+* Texto sobre fundo creme ou vinho.
+* Composição alternada entre imagem e conteúdo.
+* Elementos de trigo usados discretamente como textura.
+
+### Pendência
+
+Confirmar quais experiências devem ser mencionadas: café colonial, café da manhã, almoço, jantar ou consumo no local.
+
+---
+
+## 6. Encomendas
+
+### Objetivo
+
+Transformar ocasiões especiais em pedidos pelo WhatsApp.
+
+### Título provisório
+
+> Sua ocasião merece um sabor especial.
+
+### Texto-base
+
+> Faça sua encomenda com a Big Pão e encontre opções para comemorações, presentes, encontros e momentos importantes.
+
+### Conteúdos visuais sugeridos
+
+* Bolos.
+* Tortas.
+* Cestas.
+* Kits.
+* Salgados.
+* Produtos para eventos.
+
+Todos os itens permanecem **provisórios até confirmação**.
+
+### CTA
+
+**Fazer encomenda**
+
+### Comportamento
+
+O botão deve abrir o WhatsApp com mensagem previamente preenchida:
+
+> Olá! Gostaria de saber mais sobre as encomendas da Big Pão.
+
+### Pendências
+
+* Produtos disponíveis para encomenda.
+* Prazos mínimos.
+* Quantidades.
+* Personalizações.
+* Política de retirada ou entrega.
+* Fotos específicas.
+
+---
+
+## 7. Delivery e retirada
+
+### Objetivo
+
+Explicar de forma rápida que o cliente pode pedir sem precisar consumir no local.
+
+### Título provisório
+
+> Peça do jeito mais fácil para você.
+
+### Bloco 1 — Delivery
+
+> Consulte as opções disponíveis e receba seu pedido com mais comodidade.
+
+### Bloco 2 — Retirada
+
+> Faça seu pedido antecipadamente e retire diretamente na unidade Afonso Pena.
+
+### CTA
+
+**Pedir pelo WhatsApp**
+
+### Pendências
+
+* Área atendida.
+* Taxa de entrega.
+* Pedido mínimo.
+* Horários do delivery.
+* Prazo médio.
+* Existência de aplicativos parceiros.
+* Regras para retirada.
+
+Não apresentar essas informações enquanto não forem confirmadas.
+
+---
+
+## 8. História — desde 1984
+
+### Objetivo
+
+Reforçar tradição, confiança e vínculo com São José dos Pinhais.
+
+### Título
+
+> Uma história que começou em 1984.
+
+### Copy-base segura
+
+> Há mais de quatro décadas, a Big Pão faz parte da rotina de São José dos Pinhais. Uma trajetória construída com trabalho, tradição e sabores presentes em diferentes momentos do dia.
+
+> Na unidade Afonso Pena, cada visita é um convite para encontrar variedade, compartilhar bons momentos e levar um pouco dessa história para casa.
+
+### Direção visual
+
+* Foto histórica, da fachada ou da equipe.
+* Fundo vinho com tipografia clara.
+* Destaque gráfico para **1984**.
+* Possibilidade de pequena linha do tempo, caso sejam recebidas informações adicionais.
+
+### Pendências
+
+* Fundadores.
+* Origem do negócio.
+* Evolução da empresa.
+* Participação da família.
+* Marcos históricos.
+* Fotografias antigas.
+
+---
+
+## 9. Prova social
+
+### Objetivo
+
+Transformar a reputação no Google em confiança comercial.
+
+### Título provisório
+
+> Uma escolha aprovada por milhares de clientes.
+
+### Destaque
+
+> **4,6 estrelas e 4.027 avaliações no Google**
+
+### Estrutura
+
+* Número principal em grande escala.
+* Três depoimentos curtos.
+* Fotos reais de clientes ou produtos, quando disponíveis.
+* Carrossel somente no mobile; no desktop, cards lado a lado.
+
+### Pendências
+
+* Selecionar avaliações reais.
+* Limpar metadados e repetições.
+* Manter nome e sentido original.
+* Validar se será incluído link para o perfil no Google.
+
+---
+
+## 10. Instagram e galeria
+
+### Objetivo
+
+Apresentar movimento, variedade e atualização constante.
+
+### Título provisório
+
+> Acompanhe as novidades da Big Pão.
+
+### Estrutura
+
+* Grade com seis imagens reais.
+* Mistura de produtos, ambiente, fachada e datas especiais.
+* Evitar integração pesada que prejudique o carregamento.
+* Preferir imagens selecionadas manualmente.
+
+### CTA
+
+**Ver Instagram**
+
+### Pendência
+
+Selecionar imagens com boa resolução e autorização de uso.
+
+---
+
+## 11. Unidade Afonso Pena
+
+### Objetivo
+
+Facilitar a visita e eliminar dúvidas práticas.
+
+### Título
+
+> Venha visitar a Big Pão no Afonso Pena.
+
+### Dados confirmados
+
+**Endereço**
+R. Alm. Alexandrino, 2301 — Afonso Pena
+São José dos Pinhais — PR
+CEP 83040-420
+
+**Telefone fixo**
+(41) 3383-0111
+
+**WhatsApp**
+(41) 98525-1177
+
+**Horários**
+
+| Dia              | Funcionamento |
+| ---------------- | ------------- |
+| Segunda a sábado | 06:30–22:00   |
+| Domingo          | 07:00–22:00   |
+
+### CTA
+
+**Como chegar**
+
+### Direção visual
+
+* Mapa incorporado ou imagem estática otimizada.
+* Fotografia da fachada.
+* Informações práticas em bloco de alto contraste.
+* Botões para rota e WhatsApp.
+
+### Pendências
+
+* Link definitivo da rota.
+* Foto atual da fachada.
+* Estacionamento.
+* Acessibilidade.
+* Funcionamento em feriados.
+
+---
+
+## 12. CTA final
+
+### Objetivo
+
+Encerrar a página com uma ação comercial clara.
+
+### Headline provisória
+
+> Bateu a vontade? Fale com a Big Pão.
+
+### Texto
+
+> Consulte o cardápio, faça seu pedido ou encomende pelo WhatsApp.
+
+### Botões
+
+* **Pedir pelo WhatsApp**
+* **Como chegar**
+
+### Direção visual
+
+Imagem de produto em close, fundo vinho e detalhes amarelos. O bloco deve ser simples, sem informações concorrendo com os botões.
+
+---
+
+## 13. Rodapé
+
+### Conteúdo
+
+* Logo.
+* Unidade Afonso Pena.
+* Endereço.
+* WhatsApp.
+* Telefone.
+* Instagram e Facebook.
+* Horários resumidos.
+* Política de privacidade.
+* Direitos autorais.
+* Crédito discreto da ALABZ.
+
+### Domínio desejado
+
+`panificadorabigpao.com.br`
+
+**Status:** nome desejado informado. Disponibilidade e registro ainda precisam ser confirmados antes da publicação.
+
+---
+
+# Fluxo dos CTAs
+
+| Intenção          | CTA                 | Localização                        |
+| ----------------- | ------------------- | ---------------------------------- |
+| Pedido imediato   | Pedir pelo WhatsApp | Header, hero, delivery e CTA final |
+| Explorar produtos | Ver cardápio        | Hero e produtos                    |
+| Pedido especial   | Fazer encomenda     | Seção de encomendas                |
+| Visitar a unidade | Como chegar         | Localização e CTA final            |
+
+## Direção geral da experiência
+
+A landing deve ter ritmo editorial, fotografias grandes, títulos curtos e pouco texto por bloco. A identidade será construída com vinho, creme, amarelo trigo e branco quente, preservando a tradição da logo, mas com acabamento contemporâneo.
+
+A prioridade mobile será: fotografia forte, carregamento leve, botões fáceis de tocar e acesso constante ao WhatsApp. A referência visual será aplicada na composição e no ritmo da página, sem aparecer no conteúdo ou nos créditos.
+
+**Feito:** estruturei toda a landing page da unidade Afonso Pena, com objetivo, conteúdo, CTA, direção visual e pendências por seção.
+**Próximo passo:** escrever a copy final da página, mantendo placeholders apenas onde faltam produtos, história e depoimentos.
+
+- Copy:
+
+# Copy completa — Landing Page Big Pão
+
+**CLIENTE_ATIVO:** Big Pão — `big-pao`
+**Unidade:** Afonso Pena
+**Tom:** acolhedor, tradicional, familiar e apetitoso
+**Objetivo:** apresentar produtos e serviços sem preços, estimular desejo e converter em pedidos, encomendas e visitas.
+
+---
+
+## 1. Header
+
+### Menu
+
+* Produtos
+* Encomendas
+* Nossa história
+* Avaliações
+* Localização
+
+### Botão principal
+
+**Pedir pelo WhatsApp**
+
+### Link do WhatsApp
+
+`https://wa.me/5541985251177`
+
+### Mensagem sugerida
+
+> Olá! Vim pelo site da Big Pão e gostaria de fazer um pedido.
+
+---
+
+## 2. Hero
+
+### Selo superior
+
+> PANIFICADORA E CONFEITARIA DESDE 1984
+
+### Headline principal
+
+> **Tradição e sabores que fazem parte do seu dia.**
+
+### Subheadline
+
+> Pães fresquinhos, confeitaria e uma variedade preparada para deixar o café, o lanche e os momentos especiais ainda mais gostosos.
+
+### Botões
+
+**Pedir pelo WhatsApp**
+**Ver cardápio**
+
+### Informação complementar
+
+> Unidade Afonso Pena • São José dos Pinhais
+
+### Alternativa de headline
+
+> **Mais sabor para todos os momentos do seu dia.**
+
+### Direção da imagem
+
+Fotografia ampla e real de uma mesa farta, mostrando produtos com diferentes formatos, cores e texturas. Priorizar luz quente, sensação de frescor e profundidade.
+
+---
+
+## 3. Faixa de confiança
+
+### Bloco 1
+
+> **Desde 1984**
+> Mais de quatro décadas de tradição.
+
+### Bloco 2
+
+> **4,6 no Google**
+> Uma experiência aprovada pelos clientes.
+
+### Bloco 3
+
+> **4.027 avaliações**
+> Confiança construída todos os dias.
+
+### Bloco 4
+
+> **Aberto todos os dias**
+> Para acompanhar diferentes momentos da sua rotina.
+
+---
+
+## 4. Apresentação de produtos
+
+### Selo
+
+> SABORES PARA TODOS OS MOMENTOS
+
+### Título
+
+> **Tem sempre algo gostoso esperando por você.**
+
+### Texto
+
+> Da primeira refeição do dia àquela pausa especial, a Big Pão reúne variedade, tradição e produtos preparados para você aproveitar no local ou levar para casa.
+
+### Categorias provisórias
+
+#### Pães e fornadas
+
+> O sabor e o aroma que tornam qualquer café ainda melhor.
+
+#### Doces e confeitaria
+
+> Opções para adoçar a rotina, presentear ou compartilhar.
+
+#### Bolos e tortas
+
+> Sabores especiais para o dia a dia e para momentos que merecem comemoração.
+
+#### Salgados e lanches
+
+> Praticidade e variedade para aquela pausa durante o dia.
+
+#### Café da manhã
+
+> Uma forma saborosa de começar bem a manhã.
+
+#### Cestas e presentes
+
+> Delícias reunidas para surpreender alguém especial.
+
+### CTA
+
+**Ver cardápio**
+
+### Status
+
+As categorias e suas descrições são **provisórias**. Devem ser validadas após o recebimento do cardápio oficial.
+
+---
+
+## 5. Bloco gastronômico visual
+
+### Título
+
+> **Uma pausa gostosa muda o ritmo do dia.**
+
+### Texto
+
+> Seja para tomar um café, encontrar alguém, fazer uma refeição ou levar suas escolhas favoritas para casa, a Big Pão está pronta para receber você.
+
+### Destaque curto
+
+> Variedade, sabor e uma tradição presente em São José dos Pinhais desde 1984.
+
+### CTA sugerido
+
+**Conhecer nossos produtos**
+
+Esse botão pode conduzir de volta à seção de produtos ou abrir o cardápio.
+
+---
+
+## 6. Café colonial ou experiência no local
+
+### Status
+
+**Placeholder — validar serviço, formato e disponibilidade antes da publicação.**
+
+### Selo
+
+> PARA APROVEITAR SEM PRESSA
+
+### Título provisório
+
+> **Uma mesa cheia de opções para tornar seu momento mais gostoso.**
+
+### Texto provisório
+
+> Encontre sabores variados em um ambiente acolhedor, ideal para começar o dia, fazer uma pausa ou reunir pessoas queridas.
+
+### CTA
+
+**Pedir informações pelo WhatsApp**
+
+### Mensagem sugerida
+
+> Olá! Vim pelo site da Big Pão e gostaria de saber mais sobre as opções disponíveis para consumo no local.
+
+---
+
+## 7. Encomendas
+
+### Selo
+
+> MOMENTOS ESPECIAIS
+
+### Título
+
+> **Sua ocasião merece um sabor especial.**
+
+### Texto principal
+
+> Conte com a Big Pão para preparar opções que tornam comemorações, encontros e presentes ainda mais marcantes.
+
+### Texto complementar
+
+> Fale com nossa equipe, conheça as opções disponíveis e encontre a escolha certa para o seu momento.
+
+### Possíveis aplicações — pendentes de confirmação
+
+* Aniversários
+* Reuniões
+* Confraternizações
+* Presentes
+* Café da manhã especial
+* Encontros em família
+* Eventos corporativos
+
+### CTA
+
+**Fazer encomenda**
+
+### Link sugerido
+
+`https://wa.me/5541985251177`
+
+### Mensagem predefinida
+
+> Olá! Vim pelo site da Big Pão e gostaria de saber mais sobre as encomendas.
+
+### Pendências
+
+* Produtos disponíveis.
+* Prazos mínimos.
+* Quantidades.
+* Personalizações.
+* Formas de pagamento.
+* Política de alteração ou cancelamento.
+
+---
+
+## 8. Delivery e retirada
+
+### Selo
+
+> MAIS PRATICIDADE
+
+### Título
+
+> **Peça do jeito mais fácil para você.**
+
+### Introdução
+
+> Escolha suas delícias favoritas e fale diretamente com nossa equipe para consultar as opções disponíveis.
+
+### Delivery
+
+> **Receba seu pedido**
+> Consulte a disponibilidade de entrega para sua região e faça seu pedido pelo WhatsApp.
+
+### Retirada
+
+> **Retire na unidade Afonso Pena**
+> Antecipe seu pedido e retire diretamente na Big Pão.
+
+### CTA
+
+**Pedir pelo WhatsApp**
+
+### Mensagem predefinida
+
+> Olá! Vim pelo site da Big Pão e gostaria de fazer um pedido. Poderiam me informar as opções de delivery ou retirada?
+
+### Informação de segurança
+
+Não informar taxa, prazo, pedido mínimo ou área de entrega enquanto esses dados não forem confirmados.
+
+---
+
+## 9. História
+
+### Selo
+
+> NOSSA HISTÓRIA
+
+### Título
+
+> **Uma tradição que começou em 1984.**
+
+### Texto principal
+
+> Há mais de quatro décadas, a Big Pão faz parte da rotina de São José dos Pinhais. Uma história construída com trabalho, dedicação e sabores presentes em diferentes momentos do dia.
+
+### Segundo parágrafo
+
+> Na unidade Afonso Pena, tradição e variedade se encontram para receber famílias, amigos e clientes que procuram uma experiência gostosa e acolhedora.
+
+### Fechamento
+
+> Do pão que acompanha o café às escolhas para uma ocasião especial, cada visita ajuda a continuar uma história que atravessa gerações.
+
+### Destaque visual
+
+> **Desde 1984**
+
+### Pendências históricas
+
+* Nome dos fundadores.
+* Origem completa do negócio.
+* Participação da família.
+* Marcos de crescimento.
+* Fotos antigas.
+* História da primeira sede.
+
+A origem relacionada a uma antiga frutaria não deve aparecer na página enquanto não for confirmada.
+
+---
+
+## 10. Prova social
+
+### Selo
+
+> QUEM CONHECE, RECOMENDA
+
+### Título
+
+> **Uma escolha aprovada por milhares de clientes.**
+
+### Número principal
+
+> **4,6 estrelas no Google**
+
+### Complemento
+
+> Com base em **4.027 avaliações**.
+
+### Texto de apoio
+
+> A confiança dos clientes reflete uma trajetória construída com tradição, variedade e atendimento presente no dia a dia da comunidade.
+
+### Depoimentos
+
+**[DEPOIMENTO REAL 01]**
+Nome do cliente
+
+**[DEPOIMENTO REAL 02]**
+Nome do cliente
+
+**[DEPOIMENTO REAL 03]**
+Nome do cliente
+
+### Pendência
+
+Selecionar avaliações reais e remover datas, quantidade de fotos, respostas da empresa e outros metadados, preservando o sentido original.
+
+---
+
+## 11. Instagram e galeria
+
+### Selo
+
+> NOVIDADES DA BIG PÃO
+
+### Título
+
+> **Sabores que também conquistam pelas imagens.**
+
+### Texto
+
+> Acompanhe nossos produtos, novidades e momentos especiais nas redes sociais.
+
+### CTA
+
+**Ver Instagram**
+
+### Direção do conteúdo
+
+A galeria deve misturar:
+
+* pães;
+* confeitaria;
+* salgados;
+* cafés;
+* encomendas;
+* ambiente;
+* fachada;
+* datas especiais.
+
+Priorizar fotografias reais. Evitar imagens de banco que não representem os produtos da unidade.
+
+---
+
+## 12. Localização
+
+### Selo
+
+> UNIDADE AFONSO PENA
+
+### Título
+
+> **Venha viver essa experiência de perto.**
+
+### Texto
+
+> Visite a Big Pão no Afonso Pena e encontre variedade para diferentes momentos do seu dia.
+
+### Endereço
+
+> R. Alm. Alexandrino, 2301 — Afonso Pena
+> São José dos Pinhais — PR
+> CEP 83040-420
+
+### Horários
+
+> **Segunda a sábado:** 06:30 às 22:00
+> **Domingo:** 07:00 às 22:00
+
+### Contatos
+
+> **WhatsApp:** (41) 98525-1177
+> **Telefone:** (41) 3383-0111
+
+### Botões
+
+**Como chegar**
+**Falar pelo WhatsApp**
+
+### Pendências
+
+* Link definitivo do Google Maps.
+* Foto atual da fachada.
+* Informações sobre estacionamento.
+* Informações de acessibilidade.
+* Horários em feriados.
+
+---
+
+## 13. CTA final
+
+### Selo
+
+> BATEU A VONTADE?
+
+### Headline
+
+> **Seu próximo momento gostoso começa aqui.**
+
+### Texto
+
+> Consulte o cardápio, faça seu pedido ou fale com a equipe da Big Pão pelo WhatsApp.
+
+### Botões
+
+**Pedir pelo WhatsApp**
+**Como chegar**
+
+### Alternativa mais direta
+
+> **Escolha, peça e aproveite.**
+
+> Fale com a Big Pão e consulte as opções disponíveis para pedido, retirada ou encomenda.
+
+---
+
+## 14. Rodapé
+
+### Texto institucional
+
+> Big Pão Panificadora e Confeitaria
+> Tradição em São José dos Pinhais desde 1984.
+
+### Unidade
+
+> R. Alm. Alexandrino, 2301 — Afonso Pena
+> São José dos Pinhais — PR
+
+### Contatos
+
+> WhatsApp: (41) 98525-1177
+> Telefone: (41) 3383-0111
+
+### Horário resumido
+
+> Segunda a sábado, das 06:30 às 22:00
+> Domingo, das 07:00 às 22:00
+
+### Linha legal
+
+> © Big Pão. Todos os direitos reservados.
+
+### Crédito
+
+> Desenvolvido pela ALABZ.
+
+---
+
+# Mensagens de WhatsApp por intenção
+
+## Pedido
+
+> Olá! Vim pelo site da Big Pão e gostaria de fazer um pedido.
+
+## Cardápio temporário
+
+> Olá! Vim pelo site da Big Pão e gostaria de receber o cardápio.
+
+## Encomenda
+
+> Olá! Vim pelo site da Big Pão e gostaria de saber mais sobre as encomendas.
+
+## Delivery
+
+> Olá! Gostaria de consultar as opções de delivery disponíveis para o meu endereço.
+
+## Retirada
+
+> Olá! Gostaria de fazer um pedido para retirar na unidade Afonso Pena.
+
+---
+
+# SEO inicial
+
+### Título da página
+
+> Big Pão | Panificadora e Confeitaria no Afonso Pena
+
+### Meta description
+
+> Conheça a Big Pão, panificadora e confeitaria no Afonso Pena, em São José dos Pinhais. Tradição desde 1984, pedidos, encomendas, delivery e retirada.
+
+### Título para compartilhamento
+
+> Big Pão — Tradição e sabor desde 1984
+
+### Descrição para compartilhamento
+
+> Produtos para diferentes momentos do dia, encomendas e pedidos na unidade Afonso Pena, em São José dos Pinhais.
+
+---
+
+# Placeholders que não podem chegar à publicação
+
+* `[LINK_CARDAPIO]`
+* `[LINK_GOOGLE_MAPS]`
+* `[FOTO_HERO]`
+* `[FOTOS_PRODUTOS]`
+* `[FOTO_FACHADA]`
+* `[FOTO_HISTORICA_OU_EQUIPE]`
+* `[DEPOIMENTO_REAL_01]`
+* `[DEPOIMENTO_REAL_02]`
+* `[DEPOIMENTO_REAL_03]`
+* `[CATEGORIAS_CONFIRMADAS]`
+* `[REGRAS_DELIVERY]`
+* `[REGRAS_ENCOMENDAS]`
+
+---------------------------------
+
+# Direção visual — Big Pão Afonso Pena
+
+## 1. Conceito central
+
+### Sugestão estratégica
+
+**“Tradição que desperta o apetite.”**
+
+A landing deve equilibrar dois lados da marca:
+
+* **Tradição:** história desde 1984, cores institucionais, espigas de trigo e atmosfera familiar.
+* **Desejo:** fotografias grandes, produtos em close, iluminação quente e composições que valorizem textura, recheio e frescor.
+
+A página deve parecer uma vitrine digital da padaria, não um cardápio técnico.
+
+---
+
+## 2. Identidade visual
+
+### Confirmado pela logo enviada
+
+* formato oval;
+* vinho como cor principal;
+* amarelo vivo nos destaques;
+* branco no nome;
+* espigas de trigo;
+* tipografia manuscrita no lettering;
+* assinatura “Desde 1984”;
+* posicionamento como panificadora e confeitaria.
+
+### Recomendação
+
+**Preservar a logo atual**, sem redesenhar nesta etapa. No site, posicioná-la sobre áreas limpas e com bom contraste.
+
+### Pendência
+
+Solicitar:
+
+* logo em PNG transparente;
+* versão em alta resolução;
+* arquivo vetorial, caso exista;
+* versão horizontal ou simplificada para o cabeçalho mobile;
+* favicon.
+
+A imagem enviada tem fundo branco e não deve ser recortada automaticamente sem uma revisão de qualidade.
+
+---
+
+## 3. Paleta sugerida
+
+As cores abaixo são aproximações visuais baseadas na logo, não códigos oficiais.
+
+| Função              | Cor                            | Código provisório |
+| ------------------- | ------------------------------ | ----------------- |
+| Vinho institucional | Fundo principal e áreas fortes | `#983236`         |
+| Vinho profundo      | Header, rodapé e contraste     | `#641F24`         |
+| Amarelo trigo       | Botões secundários e detalhes  | `#F4D900`         |
+| Creme quente        | Fundo das seções claras        | `#FFF5E5`         |
+| Branco suave        | Áreas de respiro               | `#FFFDF8`         |
+| Marrom café         | Textos e fundos gastronômicos  | `#34211C`         |
+| Caramelo            | Detalhes complementares        | `#BD7B3F`         |
+| Verde discreto      | Ícones de WhatsApp             | `#25D366`         |
+
+### Proporção recomendada
+
+* 50% creme e branco quente;
+* 25% vinho;
+* 15% fotografias;
+* 7% marrom;
+* 3% amarelo.
+
+O amarelo deve aparecer como destaque, sem dominar toda a página.
+
+---
+
+## 4. Tipografia
+
+### Títulos
+
+Usar uma fonte com personalidade editorial e sensação artesanal, mas com boa leitura.
+
+**Sugestões:**
+
+* `DM Serif Display`
+* `Cormorant Garamond`
+* `Lora`
+
+### Textos e interface
+
+Usar uma fonte limpa e contemporânea.
+
+**Sugestões:**
+
+* `DM Sans`
+* `Montserrat`
+* `Inter`
+
+### Combinação principal sugerida
+
+* **Títulos:** DM Serif Display
+* **Textos e botões:** DM Sans
+
+### Uso do manuscrito
+
+A tipografia cursiva deve permanecer concentrada na logo. Evitar títulos longos em fonte manuscrita, pois isso pode deixar a página antiga ou dificultar a leitura no celular.
+
+---
+
+## 5. Estilo fotográfico
+
+As imagens serão o principal argumento de venda.
+
+### Direção obrigatória
+
+* luz quente e natural;
+* produtos reais da Big Pão;
+* enquadramentos próximos;
+* textura visível;
+* cores apetitosas;
+* sensação de fartura;
+* fundos com madeira, pedra clara ou mesa posta;
+* pessoas apenas quando agregarem proximidade;
+* ambiente limpo e organizado.
+
+### Fotografias prioritárias
+
+1. Mesa farta para o hero.
+2. Pães recém-assados.
+3. Corte de bolo ou torta mostrando o recheio.
+4. Doces e confeitaria em close.
+5. Salgados agrupados.
+6. Café servido com acompanhamentos.
+7. Encomenda finalizada.
+8. Fachada da unidade Afonso Pena.
+9. Ambiente interno.
+10. Atendimento ou equipe.
+
+### Evitar
+
+* bancos de imagens genéricos;
+* fotos frias ou azuladas;
+* fundos muito escuros em todas as seções;
+* produtos recortados artificialmente;
+* excesso de filtros;
+* imagens com textos promocionais incorporados;
+* fotos de baixa resolução retiradas diretamente de prints.
+
+---
+
+## 6. Composição da página
+
+A experiência deve ser editorial, com fotografias grandes, títulos curtos e alternância entre blocos visuais. A referência trabalha com navegação direta, hero fotográfico, história, categorias de produtos, serviços e contato; para a Big Pão, essa lógica será adaptada para pedidos pelo WhatsApp, encomendas e localização da unidade Afonso Pena. ([panificadoramana.com.br][1])
+
+### Ritmo recomendado
+
+1. Impacto visual.
+2. Prova de confiança.
+3. Vitrine de produtos.
+4. Experiência no local.
+5. Encomendas.
+6. Praticidade de pedido.
+7. História.
+8. Avaliações.
+9. Localização.
+10. Conversão final.
+
+### Formas gráficas
+
+* curvas inspiradas no formato oval da logo;
+* linhas finas lembrando espigas;
+* pequenos grafismos de trigo;
+* recortes arredondados nas fotografias;
+* selos circulares com “Desde 1984”;
+* fundos com textura muito sutil de papel ou farinha.
+
+---
+
+# 7. Direção visual por seção
+
+## Header
+
+### Desktop
+
+* inicialmente transparente sobre o hero;
+* logo à esquerda;
+* navegação central ou à direita;
+* botão vinho ou amarelo para WhatsApp;
+* fundo vinho após a rolagem.
+
+### Mobile
+
+* versão compacta da logo;
+* menu simples;
+* botão de WhatsApp sempre acessível;
+* altura reduzida para não ocupar a tela.
+
+---
+
+## Hero
+
+### Layout sugerido
+
+Hero em tela ampla, com fotografia ocupando toda a área e conteúdo alinhado à esquerda.
+
+### Tratamento visual
+
+* overlay vinho escuro em degradê;
+* headline em branco ou creme;
+* selo amarelo;
+* dois botões;
+* indicação da unidade Afonso Pena;
+* selo visual “Desde 1984”.
+
+### Hierarquia
+
+1. Logo ou selo.
+2. Headline.
+3. Texto de apoio.
+4. CTA principal.
+5. CTA secundário.
+6. Localização.
+
+### Comportamento
+
+No desktop, altura entre 80 e 90% da tela.
+No mobile, evitar hero excessivamente alto; o CTA deve aparecer sem exigir rolagem.
+
+---
+
+## Faixa de confiança
+
+### Visual
+
+* fundo vinho profundo;
+* quatro informações distribuídas horizontalmente;
+* números grandes em creme;
+* detalhes amarelos;
+* divisórias discretas.
+
+### Mobile
+
+Transformar em grade 2 × 2, não em carrossel automático.
+
+---
+
+## Produtos
+
+### Layout recomendado
+
+Mosaico editorial com tamanhos variados:
+
+* uma imagem principal grande;
+* duas ou três imagens menores;
+* títulos sobrepostos ou abaixo das fotos;
+* animação leve no hover.
+
+### Alternativa mobile
+
+Rolagem horizontal controlada ou blocos empilhados com imagens amplas.
+
+### CTA
+
+Botão **Ver cardápio** após o mosaico, centralizado e evidente.
+
+### Pendência
+
+As categorias exibidas só devem ser fechadas depois do recebimento do cardápio.
+
+---
+
+## Bloco de experiência gastronômica
+
+### Composição
+
+* tela dividida entre imagem e texto;
+* fotografia ocupando aproximadamente 60%;
+* texto curto em fundo creme;
+* título vinho;
+* detalhe de espiga em amarelo ou caramelo.
+
+Na seção seguinte, inverter os lados para criar ritmo visual.
+
+---
+
+## Café colonial ou consumo no local
+
+### Status
+
+**Conteúdo provisório.**
+
+### Visual sugerido
+
+Fotografia de mesa servida em plano aberto, transmitindo variedade e convivência.
+
+### Restrição
+
+Não afirmar buffet, quantidade de itens, formato de cobrança ou disponibilidade permanente antes da confirmação.
+
+---
+
+## Encomendas
+
+### Visual
+
+* fundo vinho;
+* fotografia de bolo, cesta ou produto comemorativo;
+* título creme;
+* botão amarelo ou branco;
+* pequenos exemplos apresentados por imagem, sem preços.
+
+### Tom
+
+Mais emocional que técnico.
+
+### Elemento visual
+
+Selo pequeno:
+
+> Feito para momentos especiais
+
+---
+
+## Delivery e retirada
+
+### Estrutura
+
+Dois blocos distintos:
+
+* **Delivery:** ícone de entrega e fotografia de embalagem.
+* **Retirada:** ícone de sacola e fotografia da fachada ou balcão.
+
+### Cores
+
+Fundo creme, cards brancos e detalhes em vinho.
+
+### CTA
+
+WhatsApp em verde somente no ícone. O botão pode continuar seguindo a paleta da marca para não romper a identidade.
+
+---
+
+## História
+
+### Visual
+
+* fotografia histórica, da fachada ou equipe;
+* número **1984** em escala grande;
+* fundo vinho ou marrom café;
+* texto creme;
+* linha de trigo como elemento gráfico.
+
+### Pendência crítica
+
+Sem foto histórica, usar imagem atual da fachada ou produção. Não usar fotografia antiga genérica.
+
+---
+
+## Prova social
+
+### Visual
+
+* fundo claro;
+* número 4,6 em destaque;
+* estrelas amarelas;
+* “4.027 avaliações” em vinho;
+* depoimentos em cards com bastante respiro.
+
+### Cards
+
+* nome do cliente;
+* texto curto;
+* cinco estrelas somente quando correspondentes à avaliação original;
+* sem data ou metadados.
+
+### Pendência
+
+Selecionar e validar três a seis avaliações reais.
+
+---
+
+## Instagram e galeria
+
+### Visual
+
+* grade de seis imagens;
+* formatos variados;
+* bordas levemente arredondadas;
+* sem incorporação pesada do feed ao vivo.
+
+### Estratégia
+
+As imagens podem ser atualizadas manualmente para preservar desempenho e controle visual.
+
+---
+
+## Localização
+
+### Composição
+
+* mapa de um lado;
+* informações do outro;
+* foto da fachada como apoio;
+* fundo creme ou branco;
+* botão vinho **Como chegar**;
+* botão secundário de WhatsApp.
+
+### Destaque obrigatório
+
+> Unidade Afonso Pena
+
+Não mencionar outras unidades.
+
+---
+
+## CTA final
+
+### Visual
+
+* imagem gastronômica em close;
+* overlay vinho;
+* frase curta;
+* botão principal grande;
+* poucas informações concorrentes.
+
+### Headline recomendada
+
+> Seu próximo momento gostoso começa aqui.
+
+---
+
+## Rodapé
+
+### Visual
+
+* fundo vinho profundo;
+* logo clara;
+* contatos e horários;
+* links sociais;
+* linha fina amarela;
+* crédito ALABZ discreto.
+
+---
+
+# 8. Botões e componentes
+
+## Botão principal
+
+* fundo vinho;
+* texto branco;
+* bordas arredondadas;
+* sombra discreta;
+* ícone opcional;
+* altura mínima de 48 px no mobile.
+
+## Botão sobre fundo vinho
+
+* fundo amarelo;
+* texto marrom escuro;
+* hover em creme.
+
+## Botão secundário
+
+* transparente;
+* borda vinho ou creme;
+* sem competir com o CTA principal.
+
+## Cards
+
+* cantos entre 16 e 24 px;
+* sombras suaves;
+* pouco texto;
+* fotografia sempre prioritária;
+* evitar grades com muitos cards idênticos.
+
+---
+
+# 9. Microinterações
+
+### Sugestões
+
+* imagens surgindo suavemente na rolagem;
+* zoom muito discreto no hover;
+* header alterando o fundo após rolagem;
+* botão do WhatsApp com feedback visual;
+* números da prova social aparecendo com animação curta;
+* transições entre 200 e 500 ms.
+
+### Evitar
+
+* parallax pesado;
+* animações contínuas;
+* carrossel automático rápido;
+* elementos pulando;
+* excesso de efeitos de entrada;
+* vídeos pesados no hero sem otimização.
+
+---
+
+# 10. Experiência mobile
+
+A maior parte das decisões deve considerar primeiro a tela do celular.
+
+### Regras
+
+* CTA principal visível logo no início;
+* botão flutuante de WhatsApp;
+* textos com no máximo três ou quatro linhas por bloco;
+* imagens em formato vertical ou quadrado;
+* fonte mínima de 16 px para parágrafos;
+* áreas clicáveis com pelo menos 44 px;
+* cardápio e mapa abrindo sem atrito;
+* cabeçalho compacto;
+* carregamento progressivo das imagens;
+* sem pop-ups invasivos.
+
+### Barra inferior sugerida
+
+No celular, pode existir uma barra fixa com:
+
+* **Pedir**
+* **Cardápio**
+* **Como chegar**
+
+A barra deve ser discreta e não esconder o conteúdo.
+
+---
+
+# 11. Acessibilidade e desempenho
+
+### Recomendações
+
+* contraste suficiente entre vinho, amarelo e branco;
+* textos alternativos nas imagens;
+* navegação funcional por teclado;
+* estados de foco visíveis;
+* imagens em WebP ou AVIF;
+* carregamento adiado abaixo da primeira dobra;
+* hero otimizado para mobile;
+* mapa carregado somente quando necessário;
+* não usar texto essencial dentro das fotografias.
+
+---
+
+# 12. Checklist de assets
+
+## Disponível
+
+* logo em imagem;
+* captura com nota e volume de avaliações;
+* informações de contato;
+* endereço;
+* horários;
+* perfis sociais;
+* domínio desejado.
+
+## Faltante
+
+* logo transparente e em alta resolução;
+* arquivo vetorial;
+* foto principal do hero;
+* fotos de produtos por categoria;
+* cardápio atual;
+* fotos de encomendas;
+* fotos de delivery e embalagens;
+* fachada atual;
+* ambiente interno;
+* equipe ou produção;
+* foto histórica;
+* depoimentos selecionados;
+* link definitivo do mapa;
+* favicon;
+* imagem para compartilhamento nas redes.
+
+---
+
+# 13. Resumo executivo da direção
+
+> Criar uma landing page gastronômica e altamente visual para a Big Pão Afonso Pena, combinando tradição desde 1984 com uma apresentação contemporânea. Usar vinho, creme, amarelo trigo e marrom, fotografias reais em grande escala, títulos editoriais, poucos textos por bloco e CTAs claros para WhatsApp, cardápio, encomendas e localização. A página deve transmitir fartura, proximidade e confiança, evitando aparência genérica, excessivamente sofisticada ou desconectada da identidade atual.
+Referencia:
+[1]: https://panificadoramana.com.br/ "Panificadora Maná"
+
+
+
+
+
