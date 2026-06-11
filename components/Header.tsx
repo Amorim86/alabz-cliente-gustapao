@@ -52,7 +52,7 @@ export default function Header() {
               <li key={item.label}>
                 <a
                   href={item.href}
-                  className="text-white hover:text-wheat transition-colors text-sm font-medium"
+                  className="text-white hover:text-wheat transition-colors text-sm font-medium relative py-1 after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-wheat after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left"
                 >
                   {item.label}
                 </a>
@@ -63,7 +63,7 @@ export default function Header() {
             href={`https://wa.me/${siteConfig.contact.whatsappClean}?text=${encodeURIComponent(siteConfig.whatsappMessages.pedido)}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-wheat text-coffee hover:bg-wheat/85 px-5 py-2.5 rounded-full font-bold text-sm transition-all flex items-center gap-2 shadow-sm"
+            className="bg-wheat text-coffee hover:bg-wheat/90 hover:scale-[1.03] active:scale-[0.97] px-5 py-2.5 rounded-full font-bold text-sm transition-all duration-300 flex items-center gap-2 shadow-sm"
           >
             <WhatsAppIcon />
             Pedir pelo WhatsApp
@@ -80,32 +80,36 @@ export default function Header() {
         </button>
 
         {/* Mobile Nav */}
-        {isMobileMenuOpen && (
-          <div className="fixed inset-0 bg-wine-dark z-40 flex flex-col items-center justify-center pt-20 px-6">
-            <ul className="flex flex-col items-center gap-6 mb-8 text-center">
-              {siteConfig.navigation.map((item) => (
-                <li key={item.label}>
-                  <a
-                    href={item.href}
-                    onClick={() => setIsMobileMenuOpen(false)}
-                    className="text-white hover:text-wheat transition-colors text-xl font-medium"
-                  >
-                    {item.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-            <a
-              href={`https://wa.me/${siteConfig.contact.whatsappClean}?text=${encodeURIComponent(siteConfig.whatsappMessages.pedido)}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => setIsMobileMenuOpen(false)}
-              className="bg-whatsapp text-white hover:bg-whatsapp/90 px-8 py-4 rounded-full font-bold text-lg w-full text-center transition-all shadow-lg"
-            >
-              Pedir pelo WhatsApp
-            </a>
-          </div>
-        )}
+        <div
+          className={`fixed inset-0 bg-wine-dark z-40 flex flex-col items-center justify-center pt-20 px-6 transition-all duration-300 ease-in-out ${
+            isMobileMenuOpen
+              ? "opacity-100 translate-y-0 pointer-events-auto"
+              : "opacity-0 -translate-y-4 pointer-events-none"
+          }`}
+        >
+          <ul className="flex flex-col items-center gap-6 mb-8 text-center">
+            {siteConfig.navigation.map((item) => (
+              <li key={item.label}>
+                <a
+                  href={item.href}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="text-white hover:text-wheat transition-colors text-xl font-medium"
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <a
+            href={`https://wa.me/${siteConfig.contact.whatsappClean}?text=${encodeURIComponent(siteConfig.whatsappMessages.pedido)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="bg-whatsapp text-white hover:bg-whatsapp/90 px-8 py-4 rounded-full font-bold text-lg w-full max-w-xs text-center transition-all shadow-lg hover:scale-[1.02] active:scale-[0.98]"
+          >
+            Pedir pelo WhatsApp
+          </a>
+        </div>
       </div>
     </header>
   );

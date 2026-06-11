@@ -20,14 +20,13 @@ const InstagramIcon = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-// Placeholder colors simulating real photos
-const placeholderColors = [
-  "#c8bfb0",
-  "#b5a898",
-  "#d4c8b8",
-  "#c0b4a4",
-  "#bfb3a2",
-  "#cbbfaf",
+const instagramPosts = [
+  { image: "/cat-bread.png", alt: "Pão artesanal fresquinho Big Pão" },
+  { image: "/cat-breakfast.png", alt: "Café da manhã especial com cesta Big Pão" },
+  { image: "/cat-cake.png", alt: "Bolo confeitado e doces Big Pão" },
+  { image: "/cat-gifts.png", alt: "Cesta de presentes e pães especiais" },
+  { image: "/cat-pastry.png", alt: "Pão de queijo quentinho saindo do forno" },
+  { image: "/cat-savory.png", alt: "Salgados assados e fritos variados" },
 ];
 
 export default function InstagramGallery() {
@@ -56,17 +55,21 @@ export default function InstagramGallery() {
 
       {/* Galeria */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
-        {[...Array(6)].map((_, i) => (
+        {instagramPosts.map((post, i) => (
           <a
             key={i}
             href={siteConfig.social.instagram}
             target="_blank"
             rel="noopener noreferrer"
-            className="group aspect-square rounded-xl relative overflow-hidden shadow-sm border border-black/5"
-            style={{ backgroundColor: placeholderColors[i] }}
+            className="group aspect-square rounded-xl relative overflow-hidden shadow-sm border border-black/5 bg-wine-dark/5"
           >
+            <img
+              src={post.image}
+              alt={post.alt}
+              className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
+            />
             {/* Overlay on hover */}
-            <div className="absolute inset-0 bg-wine-dark/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center z-10">
+            <div className="absolute inset-0 bg-wine-dark/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center z-10">
               <InstagramIcon className="text-white w-7 h-7 transform scale-75 group-hover:scale-100 transition-transform duration-300" />
             </div>
           </a>

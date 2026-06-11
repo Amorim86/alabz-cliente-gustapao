@@ -1,9 +1,7 @@
-const APP_VERSION = 'v2';
+const APP_VERSION = 'v3';
 
 export default function VersionBadge() {
-  return (
-    <div className="fixed bottom-2 left-2 z-50 text-[10px] text-white/50 bg-black/50 px-2 py-1 rounded select-none pointer-events-none">
-      {APP_VERSION}
-    </div>
-  );
+  // A regra de exibição de VersionBadge na UI está revogada.
+  // Mantemos o componente e a constante para fins de controle, mas sem renderizar nada na tela.
+  return null;
 }

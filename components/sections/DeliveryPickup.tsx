@@ -48,7 +48,7 @@ export default function DeliveryPickup() {
           </div>
           <h3 className="font-serif text-xl text-coffee mb-3">Entrega a domicílio</h3>
           <p className="text-coffee/65 text-sm leading-relaxed mb-6 flex-1">
-            Entregas em Santa Teresa e bairros vizinhos. Pedidos pelo WhatsApp com agendamento. Fale conosco para verificar a disponibilidade para o seu endereço.
+            Entregas no Afonso Pena e bairros vizinhos. Pedidos pelo WhatsApp com agendamento. Fale conosco para verificar a disponibilidade para o seu endereço.
           </p>
           <a
             href={`https://wa.me/${siteConfig.contact.whatsappClean}?text=${encodeURIComponent(siteConfig.whatsappMessages.delivery)}`}
@@ -67,7 +67,7 @@ export default function DeliveryPickup() {
           </div>
           <h3 className="font-serif text-xl text-coffee mb-3">Retirada na loja</h3>
           <p className="text-coffee/65 text-sm leading-relaxed mb-6 flex-1">
-            Venha nos visitar! Aberta todos os dias, das 6h às 22h. Retire os seus pedidos fresquinhos na R. Alm. Alexandrino, 2301 — Santa Teresa.
+            Venha nos visitar! Aberta todos os dias, das 6h às 22h. Retire os seus pedidos fresquinhos na R. Alm. Alexandrino, 2301 — Afonso Pena.
           </p>
           <a
             href={siteConfig.links.maps}
