@@ -30,7 +30,7 @@ export default function DeliveryPickup() {
     <SectionWrapper className="bg-cream py-20">
       {/* Header */}
       <div className="mb-12">
-        <span className="text-wine font-bold text-[10px] uppercase tracking-[0.2em] mb-3 block">
+        <span className="text-wine font-bold text-[10px] uppercase tracking-[0.2em] mb-3 block text-center">
           Como Recebe
         </span>
         <h2 className="font-serif text-4xl md:text-5xl text-coffee leading-tight">

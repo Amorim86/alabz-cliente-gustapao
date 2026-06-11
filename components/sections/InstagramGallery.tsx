@@ -21,12 +21,12 @@ const InstagramIcon = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 const instagramPosts = [
-  { image: "/cat-bread.png", alt: "Pão artesanal fresquinho Big Pão" },
-  { image: "/cat-breakfast.png", alt: "Café da manhã especial com cesta Big Pão" },
-  { image: "/cat-cake.png", alt: "Bolo confeitado e doces Big Pão" },
-  { image: "/cat-gifts.png", alt: "Cesta de presentes e pães especiais" },
-  { image: "/cat-pastry.png", alt: "Pão de queijo quentinho saindo do forno" },
-  { image: "/cat-savory.png", alt: "Salgados assados e fritos variados" },
+  { image: "/cat-bread.png", alt: "Pão artesanal fresquinho Big Pão", url: "https://www.instagram.com/p/DLQ6b0gxi_u/?hl=pt" },
+  { image: "/cat-breakfast.png", alt: "Café da manhã especial com cesta Big Pão", url: "https://www.instagram.com/p/DKwoTOqx7CA/?hl=pt" },
+  { image: "/cat-cake.png", alt: "Bolo confeitado e doces Big Pão", url: "https://www.instagram.com/p/DJpYlxmvwBy/?hl=pt&img_index=1" },
+  { image: "/cat-gifts.png", alt: "Cesta de presentes e pães especiais", url: "https://www.instagram.com/p/DJWiv9NRCYO/?hl=pt" },
+  { image: "/cat-pastry.png", alt: "Pão de queijo quentinho saindo do forno", url: "https://www.instagram.com/p/DF-6Y12Pt2o/?hl=pt&img_index=1" },
+  { image: "/cat-savory.png", alt: "Salgados assados e fritos variados", url: "https://www.instagram.com/p/DF-6Y12Pt2o/?hl=pt&img_index=1" }
 ];
 
 export default function InstagramGallery() {
@@ -58,7 +58,7 @@ export default function InstagramGallery() {
         {instagramPosts.map((post, i) => (
           <a
             key={i}
-            href={siteConfig.social.instagram}
+            href={post.url}
             target="_blank"
             rel="noopener noreferrer"
             className="group aspect-square rounded-xl relative overflow-hidden shadow-sm border border-black/5 bg-wine-dark/5"
@@ -76,7 +76,7 @@ export default function InstagramGallery() {
         ))}
       </div>
 
-      <p className="text-center text-coffee/50 text-xs mt-6 tracking-wide">
+      <p className="text-coffee/65 text-sm leading-relaxed mb-6 flex-1 text-justify tracking-wide">
         Acompanhe nossos produtos, novidades e momentos especiais nas redes sociais.
       </p>
     </SectionWrapper>
