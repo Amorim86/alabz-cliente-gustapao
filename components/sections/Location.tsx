@@ -28,7 +28,7 @@ function PhoneIcon() {
 
 export default function Location() {
   return (
-    <SectionWrapper id="localizacao" className="bg-cream py-20">
+    <SectionWrapper id="localizacao" className="bg-soft-white py-20">
       <div className="flex flex-col md:flex-row gap-12 md:gap-16 items-start">
 
         {/* Informações (50%) */}
