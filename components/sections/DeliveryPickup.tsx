@@ -1,6 +1,14 @@
 import { siteConfig } from "../../config/site";
 import SectionWrapper from "../SectionWrapper";
 
+function OrderIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+    </svg>
+  );
+}
+
 function TruckIcon() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -28,26 +36,45 @@ function ArrowRightIcon() {
 export default function DeliveryPickup() {
   return (
     <SectionWrapper className="bg-cream py-20">
-      {/* Header */}
-      <div className="mb-12">
-        <span className="text-wine font-bold text-[10px] uppercase tracking-[0.2em] mb-3 block text-center">
-          Como Recebe
+      {/* Header - Alinhado à Esquerda */}
+      <div className="mb-12 text-left">
+        <span className="text-wine font-bold text-[10px] uppercase tracking-[0.2em] mb-3 block">
+          Pedidos
         </span>
         <h2 className="font-serif text-4xl md:text-5xl text-coffee leading-tight">
           Do nosso forno para a sua mesa
         </h2>
       </div>
 
-      {/* Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl">
+      {/* Cards - 3 Colunas com Textos Justificados e Título/Ícone Centralizados */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
+
+        {/* Escolha do Canal de Atendimento */}
+        <div className="bg-white rounded-2xl p-8 shadow-sm border border-coffee/5 flex flex-col items-center text-center hover:shadow-md transition-shadow duration-300">
+          <div className="w-12 h-12 rounded-full bg-wine-dark/10 flex items-center justify-center text-wine-dark mb-6 shrink-0">
+            <OrderIcon />
+          </div>
+          <h3 className="font-serif text-xl text-coffee mb-3 text-center w-full">Atendimento &amp; Cotação</h3>
+          <p className="text-coffee/65 text-sm leading-relaxed mb-6 flex-1 text-justify">
+            Você pode fazer suas escolhas presencialmente na nossa loja ou solicitar uma cotação rápida diretamente por WhatsApp ou telefone. Nossa equipe está pronta para te atender de forma prática.
+          </p>
+          <a
+            href={`https://wa.me/${siteConfig.contact.whatsappClean}?text=${encodeURIComponent(siteConfig.whatsappMessages.geral)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-wine font-semibold text-sm hover:underline transition-all"
+          >
+            Fazer cotação <ArrowRightIcon />
+          </a>
+        </div>
 
         {/* Entrega a Domicílio */}
-        <div className="bg-white rounded-2xl p-8 shadow-sm border border-coffee/5 flex flex-col hover:shadow-md transition-shadow duration-300">
+        <div className="bg-white rounded-2xl p-8 shadow-sm border border-coffee/5 flex flex-col items-center text-center hover:shadow-md transition-shadow duration-300">
           <div className="w-12 h-12 rounded-full bg-wine-dark/10 flex items-center justify-center text-wine-dark mb-6 shrink-0">
             <TruckIcon />
           </div>
-          <h3 className="font-serif text-xl text-coffee mb-3">Entrega a domicílio</h3>
-          <p className="text-coffee/65 text-sm leading-relaxed mb-6 flex-1">
+          <h3 className="font-serif text-xl text-coffee mb-3 text-center w-full">Entrega a domicílio</h3>
+          <p className="text-coffee/65 text-sm leading-relaxed mb-6 flex-1 text-justify">
             Entregas no Afonso Pena e bairros vizinhos. Pedidos pelo WhatsApp com agendamento. Fale conosco para verificar a disponibilidade para o seu endereço.
           </p>
           <a
@@ -61,13 +88,13 @@ export default function DeliveryPickup() {
         </div>
 
         {/* Retirada na Loja */}
-        <div className="bg-white rounded-2xl p-8 shadow-md border border-coffee/10 flex flex-col hover:shadow-lg transition-shadow duration-300 ring-1 ring-coffee/8">
+        <div className="bg-white rounded-2xl p-8 shadow-md border border-coffee/10 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300 ring-1 ring-coffee/8">
           <div className="w-12 h-12 rounded-full bg-wheat/30 flex items-center justify-center text-wine-dark mb-6 shrink-0">
             <StoreIcon />
           </div>
-          <h3 className="font-serif text-xl text-coffee mb-3">Retirada na loja</h3>
-          <p className="text-coffee/65 text-sm leading-relaxed mb-6 flex-1">
-            Venha nos visitar! Aberta todos os dias, das 6h às 22h. Retire os seus pedidos fresquinhos na R. Alm. Alexandrino, 2301 — Afonso Pena.
+          <h3 className="font-serif text-xl text-coffee mb-3 text-center w-full">Retirada na loja</h3>
+          <p className="text-coffee/65 text-sm leading-relaxed mb-6 flex-1 text-justify">
+            Venha nos visitar! Aberta todos os dias, das 6:30h às 22h. Retire os seus pedidos fresquinhos na R. Alm. Alexandrino, 2301 — Afonso Pena.
           </p>
           <a
             href={siteConfig.links.maps}
