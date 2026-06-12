@@ -3,35 +3,41 @@
 import { siteConfig } from "../../config/site";
 import SectionWrapper from "../SectionWrapper";
 
+import imgBread from "../../assets/cat-bread.png";
+import imgPastry from "../../assets/cat-pastry.png";
+import imgCake from "../../assets/cat-cake.png";
+import imgGifts from "../../assets/cat-gifts.png";
+import imgSavory from "../../assets/cat-savory.png";
+
 const products = [
   {
-    name: "Pão Artesanal",
+    name: "Sanduíche Gourmet",
     tag: "Destaque",
-    image: "/cat-bread.png",
+    image: imgBread.src,
     size: "large", // 2x2
   },
   {
     name: "Pão de Queijo",
     tag: "Clássico",
-    image: "/cat-pastry.png",
+    image: imgPastry.src,
     size: "medium",
   },
   {
     name: "Croissant",
     tag: "Favorito",
-    image: "/cat-cake.png",
+    image: imgCake.src,
     size: "medium",
   },
   {
     name: "Cesta de Pães",
     tag: "Cesta & Presentes",
-    image: "/cat-gifts.png",
+    image: imgGifts.src,
     size: "wide", // spans 2 cols
   },
   {
     name: "Pão Fatiado",
     tag: "Forno Diário",
-    image: "/cat-savory.png",
+    image: imgSavory.src,
     size: "medium",
   },
 ];

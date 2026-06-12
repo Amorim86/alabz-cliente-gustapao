@@ -27,7 +27,7 @@ export const siteConfig = {
   navigation: [
     { label: "Produtos", href: "#produtos" },
     { label: "Encomendas", href: "#encomendas" },
-    { label: "Nossa história", href: "#historia" },
+    { label: "História", href: "#historia" },
     { label: "Avaliações", href: "#avaliacoes" },
     { label: "Localização", href: "#localizacao" },
   ],

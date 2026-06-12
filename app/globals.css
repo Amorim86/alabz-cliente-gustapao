@@ -10,6 +10,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-dm-sans);
   --font-serif: var(--font-dm-serif-display);
+  --font-cursive: var(--font-qwitcher-grypen);
   --color-wine: #983236;
   --color-wine-dark: #641F24;
   --color-wheat: #F4D900;
@@ -25,6 +26,10 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans), sans-serif;
   overflow-x: hidden;
+}
+
+.font-cursive {
+  font-family: var(--font-qwitcher-grypen), cursive;
 }
 
 /* Hero: pan lateral esquerda → direita (imagens par) */

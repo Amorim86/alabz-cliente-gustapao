@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { DM_Sans, DM_Serif_Display } from "next/font/google";
+import { DM_Sans, DM_Serif_Display, Qwitcher_Grypen } from "next/font/google";
 import "./globals.css";
 import Footer from "../components/Footer";
 import WhatsAppFloating from "../components/WhatsAppFloating";
@@ -16,6 +16,12 @@ const dmSerifDisplay = DM_Serif_Display({
   variable: "--font-dm-serif-display",
   subsets: ["latin"],
   weight: ["400"],
+});
+
+const qwitcherGrypen = Qwitcher_Grypen({
+  variable: "--font-qwitcher-grypen",
+  subsets: ["latin"],
+  weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {
@@ -36,7 +42,7 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
-      className={`${dmSans.variable} ${dmSerifDisplay.variable} h-full antialiased`}
+      className={`${dmSans.variable} ${dmSerifDisplay.variable} ${qwitcherGrypen.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-sans bg-soft-white text-coffee">
         <main className="flex-1">{children}</main>
