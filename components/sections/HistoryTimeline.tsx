@@ -32,12 +32,8 @@ export default function HistoryTimeline() {
           {/* Métricas */}
           <div className="flex gap-8 relative z-10">
             <div>
-              <p className="font-serif text-4xl text-wine-dark leading-none mb-1">40</p>
-              <p className="text-coffee/60 text-xs uppercase tracking-wider">Anos de história</p>
-            </div>
-            <div>
-              <p className="font-serif text-4xl text-wine-dark leading-none mb-1">3ª</p>
-              <p className="text-coffee/60 text-xs uppercase tracking-wider">Geração à frente</p>
+              <p className="font-serif text-4xl text-wine-dark leading-none mb-1">40+</p>
+              <p className="text-coffee/60 text-xs uppercase tracking-wider">Anos de tradição</p>
             </div>
             <div>
               <p className="font-serif text-4xl text-wine-dark leading-none mb-1">100%</p>
@@ -49,13 +45,10 @@ export default function HistoryTimeline() {
         {/* Coluna direita — Texto narrativo */}
         <div className="w-full md:w-1/2 pt-4 md:pt-28 space-y-5 text-coffee/75 text-base leading-relaxed">
           <p>
-            Em 1984, numa rua do paralalepiado de Santa Teresa, nascia a Big Pão, o que começou como uma pequena padaria de bairro, para servir as famílias de Santa Teresa e da cidade, cresceu junto com a comunidade que hoje a abraça.
+            Há mais de quatro décadas, a Big Pão faz parte da rotina de São José dos Pinhais. Uma história construída com trabalho, dedicação e sabores presentes em diferentes momentos do dia.
           </p>
           <p>
-            Mais de 40 anos depois, mantemos os mesmos valores: ingredientes frescos, fermentação natural e o carinho de sempre em cada pão que sai do nosso forno. A tradição que começou com nossos fundadores passou de mão em mão — e de geração em geração.
-          </p>
-          <p>
-            Há mais de quatro décadas, a Big Pão faz parte da rotina de São José dos Pinhais. Na unidade Afonso Pena, tradição e variedade se encontram para receber famílias, amigos e clientes que procuram uma experiência gostosa e acolhedora.
+            Na unidade Afonso Pena, tradição e variedade se encontram para receber famílias, amigos e clientes que procuram uma experiência gostosa e acolhedora.
           </p>
           <p>
             Do pão que acompanha o café às escolhas para uma ocasião especial, cada visita ajuda a continuar uma história que atravessa gerações.
