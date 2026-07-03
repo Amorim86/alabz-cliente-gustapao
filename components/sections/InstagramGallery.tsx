@@ -20,42 +20,36 @@ const InstagramIcon = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-import imgVitrine from "../../assets/ig-vitrine.png";
-import imgCafeColonial from "../../assets/ig-cafe-colonial.png";
-import imgHorarios from "../../assets/ig-horarios.png";
-import imgBolos from "../../assets/ig-bolos.png";
-import imgTortas from "../../assets/ig-tortas.png";
-
 const instagramPosts = [
   {
-    image: imgVitrine.src,
-    alt: "Vitrine Big Pão – pães, doces e salgados expostos",
+    image: "/balcao.webp",
+    alt: "Vitrine Gustapão – pães, doces e salgados expostos no balcão",
     label: "Vitrine",
-    url: "https://www.instagram.com/stories/highlights/18005581087242321/?hl=pt",
+    url: siteConfig.social.instagram,
   },
   {
-    image: imgCafeColonial.src,
-    alt: "Café colonial Big Pão – mesa farta com pães e geleias",
-    label: "Café colonial",
-    url: "https://www.instagram.com/stories/highlights/17848908939079680/?hl=pt",
+    image: "/comercomosolhos.webp",
+    alt: "Pães e doces frescos saindo do forno do Gustapão",
+    label: "Produtos",
+    url: siteConfig.social.instagram,
   },
   {
-    image: imgHorarios.src,
-    alt: "Horários de funcionamento da Big Pão",
-    label: "Horários",
-    url: "https://www.instagram.com/stories/highlights/18056188924880945/?hl=pt",
+    image: "/g3.webp",
+    alt: "Pão de queijo e chipa quentinhos do Gustapão",
+    label: "Favorito",
+    url: siteConfig.social.instagram,
   },
   {
-    image: imgBolos.src,
-    alt: "Bolos confeitados e decorados da Big Pão",
-    label: "Bolos",
-    url: "https://www.instagram.com/stories/highlights/18123493783101998/?hl=pt",
+    image: "/g7.webp",
+    alt: "Ambiente agradável e aconchegante da Panificadora Gustapão",
+    label: "O Local",
+    url: siteConfig.social.instagram,
   },
   {
-    image: imgTortas.src,
-    alt: "Tortas artesanais da Big Pão",
-    label: "Tortas",
-    url: "https://www.instagram.com/stories/highlights/17888202661372251/?hl=pt",
+    image: "/g5.webp",
+    alt: "Pães artesanais e de forno da Gustapão",
+    label: "Tradição",
+    url: siteConfig.social.instagram,
   },
 ];
 
@@ -66,7 +60,7 @@ export default function InstagramGallery() {
       <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-10">
         <div className="max-w-[700px]">
           <span className="text-wine font-bold text-[10px] uppercase tracking-[0.2em] mb-3 block">
-            Novidades da Big Pão
+            Novidades da Gustapão
           </span>
           <h2 className="font-serif text-4xl md:text-5xl text-coffee leading-tight mb-4">
             Sabores que também conquistam pelas imagens
@@ -82,7 +76,7 @@ export default function InstagramGallery() {
           className="shrink-0 inline-flex items-center gap-2 bg-coffee text-white hover:bg-coffee/85 font-semibold text-sm py-3 px-6 rounded-full transition-all duration-300 shadow-sm"
         >
           <InstagramIcon className="w-4 h-4" />
-          @bigpaopanificadora
+          @gustapao.curitiba
         </a>
       </div>
 

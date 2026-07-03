@@ -38,10 +38,10 @@ export default function Location() {
           </span>
 
           <h2 className="font-serif text-4xl md:text-5xl text-coffee leading-tight mb-8">
-            Panificadora Big Pão
+            Panificadora Gustapão
           </h2>
 
-          <div className="space-y-6 mb-10">
+          <div className="space-y-6 mb-8">
 
             <div className="flex items-start gap-4">
               <div className="w-10 h-10 rounded-full bg-wine-dark/8 flex items-center justify-center text-wine-dark shrink-0 mt-0.5">
@@ -63,6 +63,7 @@ export default function Location() {
                 <h4 className="font-semibold text-coffee text-sm mb-1">Horários</h4>
                 <p className="text-coffee/65 text-sm leading-relaxed">
                   {siteConfig.contact.hours.week}<br />
+                  {siteConfig.contact.hours.saturday}<br />
                   {siteConfig.contact.hours.sunday}
                 </p>
               </div>
@@ -82,6 +83,10 @@ export default function Location() {
             </div>
 
           </div>
+
+          <p className="text-[11px] text-coffee/50 mb-8 italic">
+            * Horários sujeitos a alteração. Confirme antes de sair, se necessário.
+          </p>
 
           <div className="flex flex-col sm:flex-row gap-3">
             <a
@@ -107,14 +112,14 @@ export default function Location() {
         <div className="w-full md:w-1/2">
           <div className="w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-lg border border-coffee/8 relative bg-[#e0d9cc]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3601.4!2d-49.1900!3d-25.5850!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce3f9b4e3a5b1%3A0x0!2sR.+Alm.+Alexandrino%2C+2301+-+Afonso+Pena%2C+S%C3%A3o+Jos%C3%A9+dos+Pinhais+-+PR%2C+83040-420!5e0!3m2!1spt-BR!2sbr!4v1699999999999!5m2!1spt-BR!2sbr"
+              src="https://maps.google.com/maps?q=Av.+Cel.+Francisco+H.+dos+Santos%2C+951+-+Jardim+das+Am%C3%A9ricas%2C+Curitiba+-+PR%2C+81530-000&t=&z=15&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Mapa da Big Pão - Unidade Afonso Pena"
+              title="Mapa da Panificadora Gustapão - Jardim das Américas"
               className="absolute inset-0 w-full h-full"
             />
           </div>

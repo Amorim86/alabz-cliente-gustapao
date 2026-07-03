@@ -4,9 +4,9 @@ import { useState, useEffect } from "react";
 import { siteConfig } from "../../config/site";
 
 const heroImages = [
-  "/hero0.png",
-  "/hero1.png",
-  "/hero2.png",
+  "/g1.webp",
+  "/g2.webp",
+  "/g3.webp",
 ];
 
 function WhatsAppIcon() {
@@ -47,7 +47,7 @@ export default function HeroSection() {
             <img
               key={`${src}-${isActive ? slideKey : index}`}
               src={src}
-              alt="Mesa farta de padaria da Big Pão"
+              alt="Mesa farta de padaria da Panificadora Gustapão"
               className={`absolute inset-0 w-full h-full object-cover object-top transition-opacity ease-in-out z-0 ${
                 isActive
                   ? `opacity-100 duration-[1500ms] ${panClass}`
@@ -65,22 +65,30 @@ export default function HeroSection() {
         <div className="max-w-[600px] text-left">
 
           {/* Eyebrow / Selo */}
-          <p className="text-wheat text-xs font-bold uppercase tracking-[0.2em] mb-6">
-            Panificadora e Confeitaria desde 1984
+          <p className="text-wheat text-xs font-bold uppercase tracking-[0.2em] mb-4">
+            Panificadora Gustapão
           </p>
 
+          {/* Prova Social Google */}
+          <div className="flex items-center gap-2 mb-6">
+            <span className="text-wheat text-sm font-bold">★ 4.5</span>
+            <span className="text-white text-xs font-semibold">
+              no Google • 2.489 avaliações
+            </span>
+          </div>
+
           {/* Headline — editorial, serif grande */}
-          <h1 className="text-5xl md:text-6xl lg:text-[5.5rem] font-serif text-white leading-[1.05] mb-7 drop-shadow-md">
-            Tradição e sabores que fazem parte do seu dia.
+          <h1 className="text-4xl md:text-5xl lg:text-[4.5rem] font-serif text-white leading-[1.1] mb-7 drop-shadow-md">
+            Pães, cafés, doces e salgados no Jardim das Américas
           </h1>
 
           {/* Subheadline — mantido, mas discreto */}
           <p className="text-sm md:text-base text-white/70 font-normal mb-10 max-w-md leading-relaxed">
-            Pães fresquinhos, confeitaria e uma variedade preparada para deixar o café, o lanche e os momentos especiais ainda mais gostosos.
+            Uma padaria completa em Curitiba para café da manhã, lanche, produtos frescos e pedidos pelo iFood.
           </p>
 
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-3">
+          <div className="flex flex-wrap gap-3">
             <a
               href={`https://wa.me/${siteConfig.contact.whatsappClean}?text=${encodeURIComponent(siteConfig.whatsappMessages.geral)}`}
               target="_blank"
@@ -88,14 +96,23 @@ export default function HeroSection() {
               className="inline-flex items-center justify-center gap-2 bg-whatsapp hover:bg-whatsapp/90 text-white font-bold py-3.5 px-7 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5 text-sm"
             >
               <WhatsAppIcon />
-              Pedir pelo WhatsApp
+              Chamar no WhatsApp
             </a>
             <a
-              href="#produtos"
+              href={siteConfig.links.ifood}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 bg-[#EA1D2C] hover:bg-[#c21420] text-white font-bold py-3.5 px-7 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5 text-sm"
+            >
+              Pedir pelo iFood
+            </a>
+            <a
+              href={siteConfig.links.maps}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-transparent border border-white/30 text-white hover:bg-white/10 font-semibold py-3.5 px-7 rounded-full transition-all duration-300 text-sm"
             >
-              Ver cardápio
-              <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              Ver rotas
             </a>
           </div>
 

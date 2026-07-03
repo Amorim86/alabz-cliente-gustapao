@@ -54,9 +54,9 @@ export default function DeliveryPickup() {
           <div className="w-12 h-12 rounded-full bg-wine-dark/10 flex items-center justify-center text-wine-dark mb-6 shrink-0">
             <OrderIcon />
           </div>
-          <h3 className="font-serif text-xl text-coffee mb-3 text-center w-full">Atendimento &amp; Cotação</h3>
+          <h3 className="font-serif text-xl text-coffee mb-3 text-center w-full">Fale Conosco</h3>
           <p className="text-coffee/65 text-sm leading-relaxed mb-6 flex-1 text-justify">
-            Você pode fazer suas escolhas presencialmente na nossa loja ou solicitar uma cotação rápida diretamente por WhatsApp ou telefone. Nossa equipe está pronta para te atender de forma prática.
+            Você pode tirar dúvidas, fazer encomendas especiais ou entrar em contato direto conosco pelo WhatsApp ou telefone. Nossa equipe está pronta para te atender de forma prática e rápida.
           </p>
           <a
             href={`https://wa.me/${siteConfig.contact.whatsappClean}?text=${encodeURIComponent(siteConfig.whatsappMessages.geral)}`}
@@ -64,26 +64,26 @@ export default function DeliveryPickup() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 text-wine font-semibold text-sm hover:underline transition-all"
           >
-            Fazer cotação <ArrowRightIcon />
+            Chamar no WhatsApp <ArrowRightIcon />
           </a>
         </div>
 
-        {/* Entrega a Domicílio */}
+        {/* Entrega pelo iFood */}
         <div className="bg-white rounded-2xl p-8 shadow-sm border border-coffee/5 flex flex-col items-center text-center hover:shadow-md transition-shadow duration-300">
           <div className="w-12 h-12 rounded-full bg-wine-dark/10 flex items-center justify-center text-wine-dark mb-6 shrink-0">
             <TruckIcon />
           </div>
-          <h3 className="font-serif text-xl text-coffee mb-3 text-center w-full">Entrega a domicílio</h3>
+          <h3 className="font-serif text-xl text-coffee mb-3 text-center w-full">Peça pelo iFood</h3>
           <p className="text-coffee/65 text-sm leading-relaxed mb-6 flex-1 text-justify">
-            Entregas no Afonso Pena e bairros vizinhos. Pedidos pelo WhatsApp com agendamento. Fale conosco para verificar a disponibilidade para o seu endereço.
+            Faça seus pedidos de forma rápida e segura através do nosso iFood oficial. Receba pães fresquinhos, doces e salgados na comodidade da sua casa no Jardim das Américas e região.
           </p>
           <a
-            href={`https://wa.me/${siteConfig.contact.whatsappClean}?text=${encodeURIComponent(siteConfig.whatsappMessages.delivery)}`}
+            href={siteConfig.links.ifood}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 text-wine font-semibold text-sm hover:underline transition-all"
           >
-            Pedir delivery <ArrowRightIcon />
+            Pedir no iFood <ArrowRightIcon />
           </a>
         </div>
 
@@ -94,7 +94,7 @@ export default function DeliveryPickup() {
           </div>
           <h3 className="font-serif text-xl text-coffee mb-3 text-center w-full">Retirada na loja</h3>
           <p className="text-coffee/65 text-sm leading-relaxed mb-6 flex-1 text-justify">
-            Venha nos visitar! Aberta todos os dias, das 6:30h às 22h. Retire os seus pedidos fresquinhos na R. Alm. Alexandrino, 2301 — Afonso Pena.
+            Venha nos visitar! Estamos abertos todos os dias, localizados na Av. Cel. Francisco H. dos Santos, 951 — Jardim das Américas. Venha retirar os seus produtos preferidos quentinhos.
           </p>
           <a
             href={siteConfig.links.maps}

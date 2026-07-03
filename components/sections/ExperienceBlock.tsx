@@ -10,8 +10,8 @@ export default function ExperienceBlock() {
         <div className="w-full md:w-[55%] min-h-[360px] md:min-h-[580px] bg-[#c8bfb0] relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-transparent to-transparent z-10" />
           <SafeImage
-            src="/6 uma pausa.png"
-            alt="Ambiente acolhedor da padaria Big Pão"
+            src="/g4.webp"
+            alt="Ambiente acolhedor da Panificadora Gustapão"
             className="absolute inset-0 w-full h-full object-cover"
           />
           {/* Efeito de fusão suave (blend) com o fundo creme da seção */}
@@ -31,13 +31,13 @@ export default function ExperienceBlock() {
             </h2>
 
             <p className="text-coffee/70 text-base mb-8 leading-relaxed">
-              Seja para tomar um café, encontrar alguém, fazer uma refeição ou levar suas escolhas favoritas para casa, a Big Pão está pronta para receber você.
+              Seja para tomar um café, encontrar alguém, fazer uma refeição ou levar suas escolhas favoritas para casa, a Gustapão está pronta para receber você.
             </p>
 
             {/* Quote block */}
             <div className="pl-5 border-l-2 border-wheat mb-10">
               <p className="text-coffee/60 text-sm italic leading-relaxed">
-                Variedade, sabor e uma tradição presente em São José dos Pinhais desde 1984.
+                Variedade, sabor e um atendimento atencioso e simpático citado por todos no Jardim das Américas.
               </p>
             </div>
 

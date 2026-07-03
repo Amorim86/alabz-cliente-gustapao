@@ -54,7 +54,7 @@ export default function Footer() {
           {/* Brand Info */}
           <div className="md:col-span-4">
             <div className="flex items-center gap-4 mb-4">
-              <img src="/logo original bigpao sem fundo v2.png" alt={siteConfig.name} className="w-16 h-16 object-contain shrink-0" />
+              <img src="/Logo Gustapao.svg" alt={siteConfig.name} className="w-16 h-16 object-contain shrink-0" />
               <div className="flex flex-col">
                 <span className="font-serif text-xl tracking-tight leading-tight">
                   {siteConfig.name}

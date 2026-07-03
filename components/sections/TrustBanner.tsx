@@ -2,16 +2,16 @@ import { siteConfig } from "../../config/site";
 
 const metrics = [
   {
-    value: "1984",
-    label: "Mais de 40 anos de história",
+    value: "25+",
+    label: "Anos de tradição no bairro",
   },
   {
-    value: "4,6★",
+    value: "4,5★",
     label: "Excelente no Google",
   },
   {
-    value: "4.027",
-    label: "Clientes satisfeitos",
+    value: "2.489",
+    label: "Avaliações de clientes",
   },
   {
     value: "7×",

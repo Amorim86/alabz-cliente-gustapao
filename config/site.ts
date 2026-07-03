@@ -1,43 +1,44 @@
 export const siteConfig = {
-  name: "Big Pão Panificadora e Confeitaria",
-  unit: "Afonso Pena",
-  description: "Conheça a Big Pão, panificadora e confeitaria no Afonso Pena, em São José dos Pinhais. Tradição desde 1984, pedidos, encomendas, delivery e retirada.",
-  history: "Desde 1984",
+  name: "Panificadora Gustapão",
+  unit: "Jardim das Américas",
+  description: "Conheça a Panificadora Gustapão no Jardim das Américas, Curitiba. Pães frescos, pão de queijo, chipa de cebolinha, doces, salgados, cafés e pedidos pelo iFood.",
+  history: "Tradição no Jardim das Américas",
   socialProof: {
-    googleRating: "4,6",
-    reviewsCount: "4.027"
+    googleRating: "4,5",
+    reviewsCount: "2.489"
   },
   contact: {
-    whatsapp: "(41) 98525-1177",
-    whatsappClean: "5541985251177",
-    phone: "(41) 3383-0111",
-    address: "R. Alm. Alexandrino, 2301 — Afonso Pena, São José dos Pinhais — PR, CEP 83040-420",
+    whatsapp: "(41) 99817-6487",
+    whatsappClean: "5541998176487",
+    phone: "(41) 3267-3520",
+    address: "Av. Cel. Francisco H. dos Santos, 951 — Jardim das Américas, Curitiba — PR, CEP 81530-000",
     hours: {
-      week: "Segunda a sábado: 06:30 às 22:00",
-      sunday: "Domingo: 07:00 às 22:00"
+      week: "Segunda a sexta: 06:30 às 22:00",
+      saturday: "Sábado: 06:30 às 20:00",
+      sunday: "Domingo: 06:30 às 20:00"
     }
   },
   social: {
-    instagram: "https://www.instagram.com/bigpaopanificadoraeconfeitaria/?hl=pt",
-    facebook: "https://www.facebook.com/bigpaopanificadoraeconfeitariaa/"
+    instagram: "https://www.instagram.com/gustapao.curitiba/",
+    facebook: "https://www.facebook.com/gustapaocuritiba/"
   },
   links: {
-    maps: "https://www.google.com/maps/search/?api=1&query=R.%20Alm.%20Alexandrino%2C%202301%20-%20Afonso%20Pena%2C%20S%C3%A3o%20Jos%C3%A9%20dos%20Pinhais%20-%20PR%2C%2083040-420"
+    maps: "https://www.google.com/maps/search/?api=1&query=Av.+Cel.+Francisco+H.+dos+Santos%2C+951+-+Jardim+das+Am%C3%A9ricas%2C+Curitiba+-+PR%2C+81530-000",
+    ifood: "https://www.ifood.com.br/delivery/curitiba-pr/panificadora-gustapao-jardim-das-americas/53068904-49fe-4a78-84c2-e1935cebf8e7"
   },
   navigation: [
     { label: "Produtos", href: "#produtos" },
     { label: "Encomendas", href: "#encomendas" },
-    { label: "História", href: "#historia" },
     { label: "Avaliações", href: "#avaliacoes" },
     { label: "Localização", href: "#localizacao" },
   ],
   whatsappMessages: {
-    pedido: "Olá! Vim pelo site da Big Pão e gostaria de fazer um pedido.",
-    cardapio: "Olá! Vim pelo site da Big Pão e gostaria de receber o cardápio.",
-    encomenda: "Olá! Vim pelo site da Big Pão e gostaria de saber mais sobre as encomendas.",
-    delivery: "Olá! Gostaria de consultar as opções de delivery disponíveis para o meu endereço.",
-    retirada: "Olá! Gostaria de fazer um pedido para retirar na unidade Afonso Pena.",
-    consumoLocal: "Olá! Vim pelo site da Big Pão e gostaria de saber mais sobre as opções disponíveis para consumo no local.",
-    geral: "Olá! Vim pelo site da Big Pão e gostaria de fazer um pedido."
+    pedido: "Olá! Vim pelo site da Panificadora Gustapão e gostaria de fazer um pedido.",
+    cardapio: "Olá! Vim pelo site da Panificadora Gustapão e gostaria de receber o cardápio.",
+    encomenda: "Olá! Vim pelo site da Panificadora Gustapão e gostaria de saber mais sobre as encomendas.",
+    delivery: "Olá! Gostaria de consultar as opções de delivery do Gustapão no iFood.",
+    retirada: "Olá! Gostaria de fazer um pedido para retirar no Jardim das Américas.",
+    consumoLocal: "Olá! Vim pelo site da Panificadora Gustapão e gostaria de saber mais sobre as opções disponíveis para consumo no local.",
+    geral: "Olá! Vim pelo site da Panificadora Gustapão e gostaria de fazer um pedido."
   }
 };

@@ -3,41 +3,35 @@
 import { siteConfig } from "../../config/site";
 import SectionWrapper from "../SectionWrapper";
 
-import imgBread from "../../assets/cat-bread.png";
-import imgPastry from "../../assets/cat-pastry.png";
-import imgCake from "../../assets/cat-cake.png";
-import imgGifts from "../../assets/cat-gifts.png";
-import imgSavory from "../../assets/cat-savory.png";
-
 const products = [
   {
-    name: "Sanduíche Gourmet",
-    tag: "Destaque",
-    image: imgBread.src,
+    name: "Pães Fresquinhos",
+    tag: "Forno Diário",
+    image: "/g5.webp",
     size: "large", // 2x2
   },
   {
-    name: "Pão de Queijo",
-    tag: "Clássico",
-    image: imgPastry.src,
-    size: "medium",
-  },
-  {
-    name: "Croissant",
+    name: "Pão de Queijo & Chipa",
     tag: "Favorito",
-    image: imgCake.src,
+    image: "/g6.webp",
     size: "medium",
   },
   {
-    name: "Cesta de Pães",
-    tag: "Cesta & Presentes",
-    image: imgGifts.src,
+    name: "Doces & Bolos",
+    tag: "Confeitaria",
+    image: "/g7.webp",
+    size: "medium",
+  },
+  {
+    name: "Salgados Crocantes",
+    tag: "Mais Pedido",
+    image: "/g8.webp",
     size: "wide", // spans 2 cols
   },
   {
-    name: "Pão Fatiado",
-    tag: "Forno Diário",
-    image: imgSavory.src,
+    name: "Lanches & Bebidas",
+    tag: "Cafeteria",
+    image: "/milkshake.jpg",
     size: "medium",
   },
 ];

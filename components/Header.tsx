@@ -66,10 +66,8 @@ export default function Header() {
         
         {/* Lado Esquerdo - Logo */}
         <div className="flex justify-start">
-          <a href="#" className="flex items-center relative z-50 text-white hover:text-wheat transition-colors select-none">
-            <span className="font-cursive text-3xl md:text-4xl tracking-wide whitespace-nowrap">
-              Big Pão
-            </span>
+          <a href="#" className="flex items-center relative z-50 text-white hover:text-wheat transition-colors select-none gap-2">
+            <img src="/Logo Gustapao.svg" alt={siteConfig.name} className="h-10 w-auto object-contain" />
           </a>
         </div>
 

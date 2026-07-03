@@ -16,7 +16,7 @@ export default function FinalCTA() {
       {/* Watermark decorativo */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none overflow-hidden z-0">
         <span className="text-white/[0.03] font-serif text-[18vw] font-bold leading-none whitespace-nowrap tracking-tight">
-          Big Pão
+          Gustapão
         </span>
       </div>
 
@@ -26,30 +26,38 @@ export default function FinalCTA() {
         </span>
 
         <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl text-white mb-6 leading-[1.05] drop-shadow-md">
-          Seu próximo momento gostoso começa aqui
+          Passe na Gustapão ou peça pelo iFood
         </h2>
 
         <p className="text-white/65 text-base md:text-lg mb-12 max-w-xl leading-relaxed">
-          Consulte o cardápio, faça seu pedido ou fale com a equipe da Big Pão pelo WhatsApp.
+          Para café da manhã, lanche, pães fresquinhos, doces, salgados ou aquela parada rápida no Jardim das Américas, fale com a Gustapão ou veja como chegar.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+        <div className="flex flex-wrap gap-4 justify-center">
           <a
             href={`https://wa.me/${siteConfig.contact.whatsappClean}?text=${encodeURIComponent(siteConfig.whatsappMessages.geral)}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-whatsapp hover:bg-whatsapp/90 text-white font-bold py-4 px-10 rounded-full transition-all duration-300 shadow-xl hover:-translate-y-0.5 hover:shadow-2xl text-sm"
+            className="inline-flex items-center justify-center gap-2 bg-whatsapp hover:bg-whatsapp/90 text-white font-bold py-4 px-10 rounded-full transition-all duration-300 shadow-xl hover:-translate-y-0.5 hover:shadow-2xl text-sm"
           >
             <WhatsAppIcon />
-            Pedir pelo WhatsApp
+            Chamar no WhatsApp
+          </a>
+          <a
+            href={siteConfig.links.ifood}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 bg-[#EA1D2C] hover:bg-[#c21420] text-white font-bold py-4 px-10 rounded-full transition-all duration-300 shadow-xl hover:-translate-y-0.5 hover:shadow-2xl text-sm"
+          >
+            Pedir pelo iFood
           </a>
           <a
             href={siteConfig.links.maps}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-transparent border border-white/25 text-white hover:bg-white/10 font-semibold py-4 px-10 rounded-full transition-all duration-300 text-sm"
+            className="inline-flex items-center justify-center gap-2 bg-transparent border border-white/25 text-white hover:bg-white/10 font-semibold py-4 px-10 rounded-full transition-all duration-300 text-sm"
           >
-            Como chegar
+            Ver rotas
           </a>
         </div>
       </div>
