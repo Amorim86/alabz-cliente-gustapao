@@ -41,7 +41,7 @@ export default function OrdersSection() {
         {/* Lado direito — Imagem full height (50%) */}
         <div className="w-full md:w-1/2 min-h-[400px] md:min-h-[600px] relative bg-[#c8bfb0]">
           <SafeImage
-            src="/pao com bolinho premium.webp"
+            src="/g4.webp"
             alt="Pão com Bolinho delicioso da Panificadora Gustapão"
             className="absolute inset-0 w-full h-full object-cover"
           />
